@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="20" tileheight="20" nextobjectid="28">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset source="ridges/LongGrass LongGrass - Hill.tsx" firstgid="826" />
+  <tileset source="ridges/Sand LandGrass - Flat.tsx" firstgid="1270" />
+  <tileset firstgid="1354" name="Sand ShallowWater - Flat" columns="3" tilecount="21" tileheight="20" tilewidth="20">
+    <image source="bitmaps/sand2shallowwater_flat.png" width="60" height="140" trans="008a76" />
+    <tile id="4">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="9">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="10">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="11">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="15">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="16">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="17">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="19">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="0">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="7">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="18">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="20">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <layer name="Ground" width="30" height="30">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3VsQkAIAxFwUDiVFbWguD+gwgBwSEsPsorbobLMEsAV5pr7NDoRWMAwCOmyAqN6hrq/4EfHH7Gf6cQDgAA
+  </data>
+  </layer>
+  <layer name="Items" width="30" height="30">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3WuQ0AIBADQdMFP/RfJU7oAF2AdiSHm1vClZNUvJpi2+ameyO4nW6Wt4NbAACAX/EnY1q8cwAVXPZKEA4AAA==
+  </data>
+  </layer>
+  <objectgroup name="UnitObjects">
+    <object name="commandCenter(t:0)" id="1" x="60" y="480" width="60" height="80">
+      <properties>
+        <property name="team" value="0" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="commandCenter(t:2)" id="2" x="520" y="480" width="60" height="80">
+      <properties>
+        <property name="team" value="2" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="commandCenter(t:3)" id="7" x="520" y="40" width="60" height="80">
+      <properties>
+        <property name="team" value="3" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object id="0" x="0" y="0" width="" height="" />
+    <object id="0" x="0" y="0" width="" height="" />
+    <object name="commandCenter(t:1)" id="14" x="60" y="40" width="60" height="80">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:0)" id="15" x="40" y="420" width="20" height="20">
+      <properties>
+        <property name="team" value="0" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="hovercraft(t:0)" id="16" x="80" y="420" width="20" height="20">
+      <properties>
+        <property name="team" value="0" />
+        <property name="unit" value="hovercraft" />
+      </properties>
+    </object>
+    <object name="mediun_tank(t:0)" id="17" x="120" y="420" width="20" height="20">
+      <properties>
+        <property name="team" value="0" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="hovercraft(t:2)" id="18" x="540" y="420" width="20" height="20">
+      <properties>
+        <property name="team" value="2" />
+        <property name="unit" value="hovercraft" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:2)" id="20" x="580" y="420" width="20" height="20">
+      <properties>
+        <property name="team" value="2" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:2)" id="21" x="500" y="420" width="20" height="20">
+      <properties>
+        <property name="team" value="2" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:3)" id="22" x="500" y="160" width="20" height="20">
+      <properties>
+        <property name="team" value="3" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="hovercraft(t:3)" id="23" x="540" y="160" width="20" height="20">
+      <properties>
+        <property name="team" value="3" />
+        <property name="unit" value="hovercraft" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:3)" id="24" x="580" y="160" width="20" height="20">
+      <properties>
+        <property name="team" value="3" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:1)" id="25" x="40" y="160" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+    <object name="hovercraft(t:1)" id="26" x="80" y="160" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="hovercraft" />
+      </properties>
+    </object>
+    <object name="medium_tank(t:1)" id="27" x="120" y="160" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="medium_tank" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

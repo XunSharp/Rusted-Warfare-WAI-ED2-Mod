@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="20" tileheight="20" nextobjectid="31">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="units.tsx" firstgid="1" />
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset firstgid="298" name="decoration" columns="7" tilecount="35" tileheight="20" tilewidth="20">
+    <image source="bitmaps/decoration.png" width="140" height="100" trans="" />
+    <tile id="21">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="22">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="28">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="29">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="terrain/Long Grass.tsx" firstgid="429" />
+  <tileset firstgid="633" name="Stone" columns="6" tilecount="36" tileheight="20" tilewidth="20">
+    <image source="bitmaps/stone.png" width="120" height="120" trans="008a76" />
+    <tile id="0">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="18">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="19">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="20">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="24">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="25">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="26">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="ridges/Stone Stone - Ridge.tsx" firstgid="1594" />
+  <tileset firstgid="1630" name="stone2longgrass_ridge" columns="3" tilecount="15" tileheight="20" tilewidth="20">
+    <image source="bitmaps/stone2longgrass_ridge.png" width="60" height="100" />
+    <tile id="0">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="7">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="10">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="11">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <layer name="Ground" width="100" height="100">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cPUrFQBiG0WjhorR1KWpxdRGCYGUluoxbq6CC2uiujP3lgvlh3pk5xdOGzJx8hISQ7cEwbLV4V0fDcDG2+Welz7vFplrwyLLgkWXBI8uCR5YFjywLHlkWPLIseGRZ8Miy4JFlwSPLgkeWBY8sCx5ZFjyyLHhkWfDIsuCx2+L6kEfpSs8FjzwLHlkWvXukWdTm8TT2PPbSqEVtHq9jb2PvjVrU5vEx9jn21ahFbR5zS7foyaMGi148arHowaMmi9Y9arOY4vEdsM+tWsyZj5+APW/NYo7H2vt5PqNaLTY71nJZ2Kjma3uNzgqasMgxYZFjwiLHhEWOCYscExY5JixyTFgsb7Lv2XifF4syXrtMWJQ1aemdkiRJkiRJkiRJPVfyPwvikd6fB5Oc1vZ4ZD3Jw4xkxUPSErknSpIkSZIkSZIktdvxSsc80aROV7BY+phiUbLUWZOkpB46+9ant/VKarvbQyV1p6juFdWNovoF6U5JfECcAAA=
+  </data>
+  </layer>
+  <layer name="Items" width="100" height="100">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3cOQ7CQAwFULgFOwhaQHT0dNybgzH0iEUi4Ud+T5p+Yk9GiS15NAIAGK7j+N87eG87gD3+w15cfmbSYjltayamEeYtD4u2lk/y4T7o36rFfN3WRuwBgEJ8d9ZxLpzrXeFn75IaQ5ZXNQb6p8YA9Ry87wAAdEgdJkvlOkziWaxch+njLPrf/Vz6WTyF7mso9FShO3q5v3UTz3gXOYpylQ/4mnssxyMX7rEccgEAAAAAAAAAAAAAQFcSZz1UVnnuSKL0WQ8AAAAAAABQlV53Fr3uLHrdAFDLHZpjSmNAnAAA
+  </data>
+  </layer>
+  <objectgroup name="Triggers">
+    <object name="map_info" id="1" x="1980" y="0" width="20" height="20">
+      <properties>
+        <property name="fog" value="los" />
+        <property name="introText" value="指挥官,火星的叛军入侵了我们的乌克兰基辅方面区域,他们的空降仓部队尤其是坦克部队,在成功出仓后对基辅发起了高强度穿插,把特么的守备部队给插懵了,现在,我们在此部署的部队很明显很难守住这儿,抵御火星叛军进攻的任务就靠你了指挥官,总统先生正看着你的表现,要是总统先生因此战役心情大好的话,别说什么金山银山铜山矿山了,就算把国库里的一等钱给你或者说在全球宣扬你的英勇事迹都不一定对得起你的荣誉"/>
+        <property name="type" value="mission" />
+        <property name="winCondition" value="mainBuilings" />
+        <property name="loseCondition" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="team_0_info" type="team_info" id="3" x="1980" y="0" width="20" height="20">
+      <properties>
+        <property name="team" value="0" />
+        <property name="credits" value="7500" />
+        <property name="allyGroup" value="0" />
+      </properties>
+    </object>
+    <object name="team_1_info" type="team_info" id="4" x="1980" y="0" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="credits" value="20000" />
+        <property name="allyGroup" value="1" />
+      </properties>
+    </object>
+    <object name="Dialog3" type="unitDetect" id="26" x="1970" y="10">
+      <point />
+      <properties>
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="艾本登总统:指挥官先生,我真的很重用您,希望您不会让我失望" />
+      </properties>
+    </object>
+    <object name="Dialog2" type="unitDetect" id="27" x="1950" y="10">
+      <point />
+      <properties>
+        <property name="delay" value="14s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="艾本登总统:请守住这里,稍后会有一批部队前来支援您的前线" />
+      </properties>
+    </object>
+    <object name="Dialog1" type="unitDetect" id="28" x="1930" y="10">
+      <point />
+      <properties>
+        <property name="delay" value="20s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="曼施坦因将军:但愿你能撑得久一点,不然我的手下会因为没有玩具而不高兴的" />
+      </properties>
+    </object>
+    <object name="Dialog4" type="unitDetect" id="29" x="1930" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="31s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="我:你完全没在此必要装腔作势,你仅仅只是使用了泛三滥的偷袭这一招" />
+      </properties>
+    </object>
+    <object name="Dialog5" type="unitDetect" id="30" x="1950" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="33s" />
+        <property name="globalMessage_textColor" value="#FFFF0000" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="曼施坦因将军:把大脑发育完再来吧,臭小鬼,我怕你吃了败仗后你的上司把你当成自己的儿子那样打" />
+      </properties>
+    </object>
+	<object name="Dialog6" type="unitDetect" id="31" x="1950" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="40s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="乔治总统:长点素质吧,外星日耳曼炎猪" />
+      </properties>
+    </object>
+	<object name="Dialog7" type="unitDetect" id="32" x="1950" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="50s" />
+        <property name="globalMessage_textColor" value="#FFFF0000" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="曼施坦因将军:老父亲为自己的儿子撑腰对吧" />
+      </properties>
+    </object>
+	<object name="Dialog8" type="unitDetect" id="33" x="1950" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="55s" />
+        <property name="globalMessage_textColor" value="#FFFF0000" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="曼施坦因将军:嗯,真是令人感人肺腑啊" />
+      </properties>
+    </object>
+	<object name="Dialog9" type="unitDetect" id="34" x="1950" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="60s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="乔治总统:…" />
+      </properties>
+    </object>
+	<object name="sup1" type="unitAdd" id="35" x="490" y="10" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="medium_main_battle_tank*3(falling=true)" />
+        <property name="delay" value="100s" />
+        <property name="team" value="0" />
+      </properties>
+	</object>
+	<object name="sup2" type="unitAdd" id="36" x="410" y="10" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="super_dropship*1(falling=true)" />
+        <property name="delay" value="100s" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+	<object name="sup3" type="unitAdd" id="37" x="710" y="10" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="self_propelled_antiaircraft_gun*3(falling=true)" />
+        <property name="delay" value="100s" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+	<object name="Dialog10" type="unitDetect" id="38" x="1950" y="30">
+      <point />
+      <properties>
+        <property name="delay" value="100s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage" value="副官:援军已就绪" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:0)" type="unitDetect" id="5" rotation="-90" x="1530" y="110" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="commandCenter (t:0)" type="unitDetect" id="6" rotation="-90" x="255" y="155" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder (t:0)" type="unitDetect" id="7" rotation="180" x="260" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder (t:0)" type="unitDetect" id="8" rotation="180" x="980" y="360" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:0)" type="unitDetect" id="9" rotation="-90" x="1150" y="470" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder (t:0)" type="unitDetect" id="10" rotation="180" x="740" y="500" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:0)" type="unitDetect" id="11" rotation="-90" x="90" y="610" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:0)" type="unitDetect" id="12" rotation="-90" x="770" y="610" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_artillery (t:0)" type="unitDetect" id="13" rotation="180" x="1000" y="840" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_artillery (t:0)" type="unitDetect" id="14" rotation="180" x="1740" y="900" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_artillery (t:0)" type="unitDetect" id="15" rotation="180" x="100" y="920" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="front_base (t:1)" type="unitDetect" id="16" rotation="-90" x="1655" y="1795" width="30" height="30">
+      <properties>
+        <property name="unit" value="front_base" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="front_base (t:1)" type="unitDetect" id="17" rotation="-90" x="255" y="1635" width="30" height="30">
+      <properties>
+        <property name="unit" value="front_base" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:1)" type="unitDetect" id="18" rotation="90" x="320" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:1)" type="unitDetect" id="19" rotation="180" x="1080" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:1)" type="unitDetect" id="20" rotation="90" x="1580" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:1)" type="unitDetect" id="21" rotation="90" x="1880" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="greenbelt_tankKiller (t:1)" type="unitDetect" id="22" rotation="270" x="140" y="1660" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_tankKiller" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="largeGun (t:0)" type="unitDetect" id="23" rotation="180" x="220" y="960" width="20" height="20">
+      <properties>
+        <property name="unit" value="largeGun" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

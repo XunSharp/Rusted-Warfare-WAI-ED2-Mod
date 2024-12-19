@@ -1,0 +1,16 @@
+[effect_repair]
+image:ROOT:res/drawable/unitrepaireffect.png
+fadeOut:true
+attachedToUnit:true
+alpha:0.2
+[resource_repairmaterial]
+hidden:true
+[hiddenAction_hpinput]
+autoTrigger:if self.hp(lessThan=0)
+takeResources:repairmaterial=1
+takeResources_excludeUnitsWithoutTags:heavyfactory
+takeResources_includeUnitsWithinRange:100
+[hiddenAction_hpswap]
+autoTrigger:if self.resource(type='repairmaterial',greaterThan=0)
+addResources:repairmaterial=-1,hp=2
+spawnEffects:CUSTOM:repair*1

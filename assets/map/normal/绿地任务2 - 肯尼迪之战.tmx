@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="70" height="70" tilewidth="20" tileheight="20" nextobjectid="223">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset firstgid="298" name="sewer_tileset" columns="3" tilecount="12" tileheight="24" tilewidth="24">
+    <properties>
+      <property name="embedded_png">
+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
+AFYIZ1bjq7r+AAAAAElFTkSuQmCC
+</property>
+    </properties>
+    <image source="../../下载/sewer_tileset.png" width="72" height="96" />
+    <tile id="0">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <layer name="Ground" width="70" height="70">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3QoRWAMBTAwM9CrWH/2UDiEY04EZ9365pZmv12fzr9U4kLFy5cuHApxIULFy5cuBTiwoULFy5cCnHhwoULFy6FuHDhwoULl0JcuHDhwoVLIS5cuHDhwqUQFy5cuHDhUogLFy5cuHApxIULFy5cuBTiwoULFy5cCnHh8sflAexOWy+QTAAA
+  </data>
+  </layer>
+  <layer name="Items" width="70" height="70">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3aOQ6AMAwEwPALbvj/K3GL5CZNIDAjube288qlwD+NQylTzDw8vcm7LJHHGrPJ5WaPPI6YUy4AAABAJ/RfuVb9V2/5t+q/9I85/SMAADV6uzdacW/k3BsAAAAAAAAA3+JvIOdvIOdvAIBaFwSorPaQTAAA
+  </data>
+  </layer>
+  <objectgroup name="Triggers">
+    <object name="map_info" id="1" x="0" y="0" width="20" height="20">
+      <properties>
+        <property name="fog" value="los" />
+        <property name="type" value="mission" />
+        <property name="winCondition" value="commandCenter" />
+        <property name="loseCondition" value="allBuildings" />
+        <property name="introText" value="指挥官,您在上场战役的表现得到了元首和高层的认可,派出了希特勒上将来协助你在本次的战役,上场战役你让铁锈联邦什么都来不及反应就被打的节节败退,本次任务你将指挥第136主力师第2混合装甲师发起全面进攻,此事之后他们肯定会立马派出很能干的指挥官,还有,我们已经了解了这座地下城市的名称,叫作肯尼迪,并且,这座地下城市的名称真够脑洞大开的,不过也正好对应了我们当前对铁锈的进攻局势"/>
+      </properties>
+    </object>
+    <object name="Dialog" type="unitDetect" id="226" x="20" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="3s" />
+        <property name="globalMessage" value="隆美尔元首:指挥官,上场战役你为帝国做了非常大的战略贡献" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog1" type="unitDetect" id="227" x="40" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="20s" />
+        <property name="globalMessage" value="隆美尔元首:希儿啊,如果你的党卫军没有足够的实力,那就别和我要权要势了吧" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog2" type="unitDetect" id="228" x="60" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="38s" />
+        <property name="globalMessage" value="希特勒上将:你这话说的,现在可是在前线啊,你是没吃过火药吗? 这么闲" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFEAFF00" />
+      </properties>
+    </object>
+    <object name="Dialog3" type="unitDetect" id="229" x="80" y="0" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="格姆缅中校:(偷笑)先管好你们的内部吧,少在这里丢人了,我的线人都笑了" />
+        <property name="delay" value="59s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog4" type="unitDetect" id="230" x="100" y="0" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="希特勒上将:你只是一名下贱至极的低种人,别挂着你那大号军阀级别的门面去评价我们" />
+        <property name="delay" value="69s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFEAFF00" />
+      </properties>
+    </object>
+    <object name="Dialog5" type="unitDetect" id="231" x="120" y="0" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="格姆缅中校:(偷笑)杂鱼~,只是被说了一句就输出起来了,有这精力多叫点兵吧,免得你指挥所被端了后逃跑" />
+        <property name="delay" value="75s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog6" type="unitDetect" id="232" x="140" y="0" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="隆美尔元首:我们是来打仗的还是来玩小型计算机的? " />
+        <property name="delay" value="85s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFEAFF00" />
+      </properties>
+    </object>
+    <object name="Dialog7" type="unitDetect" id="233" x="160" y="0" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="格姆缅中校:你们就这么想让我笑吗?我都要笑疯了" />
+        <property name="delay" value="95s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog8" type="unitDetect" id="234" x="180" y="0" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="希特勒上将:……呸!!!" />
+        <property name="delay" value="100s" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFEAFF00" />
+      </properties>
+    </object>
+    <object name="team_3_info" type="team_info" id="230" x="100" y="1380" width="20" height="20">
+      <properties>
+        <property name="allyGroup" value="4" />
+        <property name="credits" value="10000" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="team_2_info" type="team_info" id="231" x="80" y="1380" width="20" height="20">
+      <properties>
+        <property name="allyGroup" value="2" />
+        <property name="credits" value="4500" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="team_1_info" type="team_info" id="232" x="60" y="1380" width="20" height="20">
+      <properties>
+        <property name="allyGroup" value="1" />
+        <property name="credits" value="100" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="sup2" type="unitAdd" id="224" x="440" y="940" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_light_tank*5(falling=true)" />
+        <property name="warmup" value="3s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sup3" type="unitAdd" id="225" x="600" y="940" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_builder*4(falling=true)" />
+        <property name="warmup" value="5s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sup1" type="unitAdd" id="227" x="320" y="940" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_hover_tank*6(falling=true)" />
+        <property name="warmup" value="1s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="supPower" type="unitAdd" id="228" x="540" y="1320" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_super_tank*1(falling=true)" />
+        <property name="warmup" value="60s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="greenbelt_builder (t:3)" type="unitDetect" id="2" rotation="90" x="1120" y="1200" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_builder" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="front_base (t:3)" type="unitDetect" id="3" rotation="-90" x="1115" y="1075" width="30" height="30">
+      <properties>
+        <property name="unit" value="front_base" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="front_base (t:0)" type="unitDetect" id="4" rotation="-90" x="275" y="1215" width="30" height="30">
+      <properties>
+        <property name="unit" value="front_base" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" type="unitDetect" id="5" rotation="90" x="80" y="1080" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" type="unitDetect" id="6" rotation="90" x="180" y="1080" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" type="unitDetect" id="7" rotation="90" x="380" y="1100" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" type="unitDetect" id="8" rotation="90" x="440" y="1100" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_light_tank (t:0)" type="unitDetect" id="9" rotation="90" x="420" y="1080" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_light_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_light_tank (t:0)" type="unitDetect" id="10" rotation="90" x="120" y="1060" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_light_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" type="unitDetect" id="11" rotation="90" x="120" y="1120" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" type="unitDetect" id="12" rotation="90" x="420" y="1120" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_aircraft_gun_tank (t:0)" type="unitDetect" id="13" rotation="90" x="280" y="1140" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_aircraft_gun_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:3)" type="unitDetect" id="14" rotation="90" x="1020" y="1000" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:3)" type="unitDetect" id="15" rotation="90" x="1140" y="1000" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:3)" type="unitDetect" id="16" rotation="90" x="1260" y="1020" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="greenbelt_builder (t:3)" type="unitDetect" id="17" rotation="90" x="1080" y="1020" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_builder" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:3)" type="unitDetect" id="18" rotation="90" x="1240" y="1060" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:3)" type="unitDetect" id="19" rotation="90" x="1020" y="1060" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:3)" type="unitDetect" id="20" rotation="90" x="1140" y="1040" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:3)" type="unitDetect" id="21" rotation="90" x="1020" y="1180" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:3)" type="unitDetect" id="22" rotation="90" x="1220" y="1160" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="plasmaTank (t:0)" type="unitDetect" id="209" rotation="90" x="1220" gid="512" y="1080" width="20" height="20">
+      <properties>
+        <property name="unit" value="plasmaTank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="c_laserTank (t:0)" type="unitDetect" id="210" rotation="90" x="1000" gid="517" y="1080" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_laserTank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="c_laserTank (t:0)" type="unitDetect" id="211" rotation="90" x="1040" gid="517" y="1080" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_laserTank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="builder (t:1)" type="unitDetect" id="212" rotation="90" x="300" gid="501" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="builder (t:1)" type="unitDetect" id="213" rotation="90" x="740" gid="501" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="builder (t:1)" type="unitDetect" id="214" rotation="90" x="1100" gid="501" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="builder (t:1)" type="unitDetect" id="215" rotation="90" x="1240" gid="501" y="140" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="commandCenter (t:1)" type="unitDetect" id="216" rotation="-90" x="1195" gid="461" y="135" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:1)" type="unitDetect" id="217" rotation="90" x="400" y="200" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:1)" type="unitDetect" id="218" rotation="90" x="820" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:1)" type="unitDetect" id="219" rotation="90" x="1120" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laser_Interceptor (t:1)" type="unitDetect" id="220" rotation="90" x="1060" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="laser_Interceptor" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laser_Interceptor (t:1)" type="unitDetect" id="221" rotation="90" x="920" y="360" width="20" height="20">
+      <properties>
+        <property name="unit" value="laser_Interceptor" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laser_Interceptor (t:1)" type="unitDetect" id="222" rotation="90" x="340" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="laser_Interceptor" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

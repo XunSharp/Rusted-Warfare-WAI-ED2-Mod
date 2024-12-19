@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="20" tileheight="20" nextobjectid="1">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="units.tsx" firstgid="1" />
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset firstgid="298" name="decoration" columns="7" tilecount="35" tileheight="20" tilewidth="20">
+    <image source="bitmaps/decoration.png" width="140" height="100" trans="" />
+    <tile id="21">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="22">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="28">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="29">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="terrain/Short Grass.tsx" firstgid="552" />
+  <layer name="Ground" width="40" height="40">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3DAQkAAAwDoPE0659wPY6CvaSqqqqqqqqPDrIIpWkAGQAA
+  </data>
+  </layer>
+  <layer name="Items" width="40" height="40">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO1Y2w6CMAyFv/B+iT6K8AcaYzTG//8f+6ChD71s0EFBTtIgc7RnPXTOZlkcTnltBdgZrCTuq7yeXwR8j8fxfSzws9gnFUeLzc3BvGOB/XGfOS4aNyrXTfj9Ymn6Svmh1irNDQV+nnqvNJ0lPS34cTpRvmPfO2otY8M+4ZqOX98XuF6ZODMYn4MtesztA2I/mfhLGF+BrZ1qvwFeW7CdI36S3h6A9b454Cnl6+WAn1QfE+KRoj4s99EUerfZR7vYT9rso1N92GJIvx8eYJWvVGcxq3z921nszvjxUh9vhsNY6yMVvOVr6MB6HxzmtSu9U/637wtS/ym0Txo61gScL6oXRvUPpd6ZFUetNxbCTeo9WnML7c9xvCWuFLRzkEVvW/KBrxSkcxAVV8uVxofTlNNYOgd9AAuOamYAGQAA
+  </data>
+  </layer>
+  <layer name="Units" width="40" height="40">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3OMQkAAAgAMD8L2T+bJQQFtwSLgFtyOwAAAADAO7UdAMY1CoOLGgAZAAA=
+  </data>
+  </layer>
+  <layer name="Set" opacity="0.8" width="40" height="40">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BAQ0AAADCoPdPbQ8HFAAAAAAAwJcBSxPzAQAZAAA=
+  </data>
+  </layer>
+  <objectgroup name="Triggers" />
+</map>

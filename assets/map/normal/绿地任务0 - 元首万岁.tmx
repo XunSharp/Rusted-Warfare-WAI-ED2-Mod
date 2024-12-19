@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="70" height="70" tilewidth="20" tileheight="20" nextobjectid="27">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset source="terrain/Short Grass.tsx" firstgid="552" />
+  <tileset source="ridges/LongGrass Dirt - Flat.tsx" firstgid="775" />
+  <layer name="Ground" width="70" height="70">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3YwQmAMBBEUdGjggXYgP1XqBaRdSe8w2/gMSQh+7Yse1HX2/l2r/2rMvk6QkwqXZK2UumStBUuXLhkuFxb3plb4ZK2Ey5cuHDhMp9L4v1c4ZK6FS5cuHDhwqVLXLh0cEl+6450Sd4KFy5cuHDh0iUuXLhw4cKlQ1y4/O2S/vcyyiV9K1y4cOHChUuXuHDhwoULlw5x4fKnywx/LyNcZtgKFy5cuHDh0iUuXLhw4cKlQw+tVus8kEwAAA==
+  </data>
+  </layer>
+  <layer name="Items" width="70" height="70">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3aOQrAMAwEQPsXuZP/vzJqA65cxEbMgHqxLKhRKQAAMN5SS1ljtjp6k7nskccRc8rl44o87phHLkACbmCbG9jmBgIAAAAAAAAAAMAc/IC2+QFt+/MHtLeb2Tvd283sne7tpr9mAADI6QWOcKE8kEwAAA==
+  </data>
+  </layer>
+  <objectgroup name="Triggers">
+    <object name="map_info" id="1" x="0" y="0" width="20" height="20">
+      <properties>
+        <property name="fog" value="los" />
+        <property name="introText" value="隆美尔:指挥官先生,我将批准您使用我们最新的坦克,为我解决此处的铁锈联邦军队,将这群累赘赶出火星.听着,如果您能在此战帮助我获得大量的威望,那么听着,你将在战后拥有享不尽的财富及酒池肉林般多的地球美女"/>
+        <property name="type" value="mission" />
+        <property name="winCondition" value="commandCenter" />
+        <property name="loseCondition" value="allUnitsAndBuildings" />
+      </properties>
+    </object>
+    <object name="team_0_info" type="team_info" id="16" x="20" y="0" width="20" height="20">
+      <properties>
+        <property name="allyGroup" value="0" />
+        <property name="credits" value="16000" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="team_1_info" type="team_info" id="17" x="40" y="0" width="20" height="20">
+      <properties>
+        <property name="allyGroup" value="1" />
+        <property name="credits" value="0" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="Dialog" type="unitDetect" id="18" x="60" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="1s" />
+        <property name="globalMessage" value="隆美尔:指挥官阁下,等我们推翻这坨暴政后你会过上荣华富贵的生活" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog1" type="unitDetect" id="19" x="80" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="20s" />
+        <property name="globalMessage" value="海尔斯将军:什么玩意? 你们这群低级生物!" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog2" type="unitDetect" id="20" x="100" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="39s" />
+        <property name="globalMessage" value="隆美尔:什么素质玩意? 指挥官阁下,立刻使用我们的坦克粉碎这群累赘!" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog3" type="unitDetect" id="21" x="120" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="53s" />
+        <property name="globalMessage" value="隆美尔:在情报上,他们似乎有座无人的核弹井,若是真有,逆天" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog4" type="unitDetect" id="22" x="140" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="76s" />
+        <property name="globalMessage" value="隆美尔:让我看看两年之期所准备的反抗军是否可以推翻修正帝国的暴政" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog5" type="unitDetect" id="23" x="160" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="100s" />
+        <property name="globalMessage" value="隆美尔:当然,你可以把玩核武器,火星上有着极为丰富的射性物质及氦气" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog6" type="unitDetect" id="24" x="180" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="130s" />
+        <property name="globalMessage" value="隆美尔:别问我为什么这么贵,你当我是希特勒那样喜欢造奢侈品的人啊? " />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog7" type="unitDetect" id="24" x="200" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="140s" />
+        <property name="globalMessage" value="隆美尔:因为既然含量矿这么丰富,所以威力必须整大的,谁敢反对? " />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="vic" id="26" x="0" y="0" width="1400" height="1400" />
+  </objectgroup>
+  <objectgroup name="unit">
+    <object name="greenbelt_medium_tank" type="unitDetect" id="2" rotation="90" x="360" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_hover_tank" type="unitDetect" id="3" rotation="90" x="600" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_super_tank" type="unitDetect" id="4" rotation="90" x="840" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_medium_tank" type="unitDetect" id="5" rotation="90" x="960" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="flying_saucer" type="unitDetect" id="6" rotation="90" x="440" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_hover_tank" type="unitDetect" id="7" x="700" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_hover_tank" type="unitDetect" id="8" x="1020" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_hover_tank" type="unitDetect" id="9" x="1140" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_super_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder_helicopter" type="unitDetect" id="10" rotation="90" x="500" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder_helicopter" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="lili1" type="unitDetect" id="13" x="340" y="680" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="lili2" type="unitDetect" id="14" x="400" y="180" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="lili3" type="unitDetect" id="15" x="840" y="480" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="lili4" type="unitDetect" id="16" x="1240" y="720" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="lili5" type="unitDetect" id="17" x="1200" y="140" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="commandCenter" />
+      </properties>
+    </object>
+    <object name="Launch" type="unitDetect" id="18" x="1080" y="840" width="20" height="20">
+      <properties>
+        <property name="team" value="-1" />
+        <property name="unit" value="nukeLauncherC" />
+      </properties>
+    </object>
+    <object name="turret1" type="unitDetect" id="19" x="440" y="800" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="c_turret_t1" />
+      </properties>
+    </object>
+    <object name="turret2" type="unitDetect" id="20" x="1240" y="900" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="c_turret_t1" />
+      </properties>
+    </object>
+    <object name="turret3" type="unitDetect" id="21" x="780" y="900" width="20" height="20">
+      <properties>
+        <property name="team" value="1" />
+        <property name="unit" value="c_turret_t1" />
+      </properties>
+    </object>
+    <object name="Dialog8" type="unitDetect" id="25" x="220" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="145s" />
+        <property name="globalMessage" value="希特勒上将:老毕登&#128545;" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

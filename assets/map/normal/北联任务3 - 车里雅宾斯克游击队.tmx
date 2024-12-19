@@ -1,0 +1,3145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="134" height="134" tilewidth="20" tileheight="20" nextobjectid="481">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset source="terrain/Long Grass.tsx" firstgid="429" />
+  <tileset firstgid="553" name="Snow" columns="8" tilecount="80" tileheight="20" tilewidth="20">
+    <image source="bitmaps/snow.png" width="160" height="200" trans="008a76" />
+    <tile id="11">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="32">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="33">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="40">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="41">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="43">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="56">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="57">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="58">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="60">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="61">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="64">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="65">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="66">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="68">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="69">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="72">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="73">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="74">
+      <properties>
+        <property name="block-land" value="" />
+      </properties>
+    </tile>
+    <tile id="14" />
+  </tileset>
+  <tileset firstgid="877" name="LongGrass ShallowWater - Flat" columns="3" tilecount="21" tileheight="20" tilewidth="20">
+    <image source="bitmaps/longgrass2shallowwater_flat.png" width="60" height="140" trans="008a76" />
+    <tile id="0">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="7">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="18">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="20">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="4">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="15">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="16">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="17">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="19">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="ridges/Snow Ice - Ridge.tsx" firstgid="1459" />
+  <tileset firstgid="1645" name="snow2longgrass_flat" columns="3" tilecount="21" tileheight="20" tilewidth="20">
+    <image source="bitmaps/snow2longgrass_flat.png" width="60" height="140" />
+  </tileset>
+  <layer name="Ground" width="134" height="134">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dzW4TMRQF4NAofZc+FiCQACUihS66zDuBWiT+CiwQsOGNmJEYaerOeGyP7Xvu9VmcBRtUej/OdSZpfXG22VwwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDNNUHnd5EhDpr5Op6+BZl5cBkf66GQwHdGEnUzsh1QFd6E2uLqALPQk5D5Z0QBc4GVuoOXO6wErNPUAXuNHkgC7qWdDkgC7KetBsgS7yObDQDXSRz4Q1B26eAnyfNaUFE32en9FGqAeL+2LJxnhX0knbHkKctGyklZ2x1khLVmgijxVrXl4AfJ+txEq3sCvqWdHkg11R14cWG8cue4DvWSt5BTBz2sCLJhe0US+adglt1I22zqANuliycXlGH6WicZfQR51o7YwpH0PohC7opEy075IUJ7RCGzFWUmLdl8b3ThAS6ku7nxa7o5YfCzbYHWVsWOgTdoesGWQr7I66Ntw/I9voY/E5h4YcAWbPnYIZ6dmzMzAjPXe6wIz03LlLMCM9d3YGZqRnTheYkZ45dwlmpGfOzsCM9LzpAjPS8+YuwYz0vNkZmJGeNV1gZX++2RzO5WdNF7Lzd3Pd5ajMBc8Y+UwM85+L9KzZGWXn7+sESy7YGeEmQuZvxQU74+H8UzuBLuzEdbB2/nPR8pnPFl1MdUEpB27GX4eWn7FswcXa80FOF24kf27u4Pn73gDMrXQ/1DLx5VG8i1wJ/Z0RYwtWZ+8zIdkPEi5cH631gDYTtV0wOky06GLu/lqJZ2WoJlpysXSPSM3XOMP5EtVEKy5Cfg98LRfIHdGKi5i7hmq876LFhHUXsfcClOwMTSYsu0i5Q6SUC20mLLtIuUOkxC6RMvFj5jlmyy7W3DeU04bGnrDsYu19Qzls1DDxdWUntOQi191ka2yUMvGzoAPrLnLeTZZyDtW8O6y6yH2PYWxnWDFhyUWpuy1jOuO14Bx/Zd4x0vNENhHjQnNXTJ1fpWeaIyXvOw1xkdNE7v/3rfZF6buRl1wg9sRNZ+t2lA8ja6HupOeK3BX95wp9nyFDMeE6+N3l0yh/JnxYdRHzXmmprog5Z+Z8BrXkYC6fG3BR+g71pa6IdSHhoDUXpc8Ua84Vc5+7X5q1L6kOWnMh3RWuidCz3E2BWdMFTlfE7o8bQQstuKhhIqcLFA9zLnw9Jz3rmJTeHyk7xGcCxUNIX7if45GeNVJXWDZhcY9o2h+IJv52+dbluzEXCPsjxAWqiRgPffZb+Zlr6YolFxZM9B4OXa7BXdQyEdIVw9li6nk2monYvTH2cPwf6dn7UmN/hHSF77yJYmKw4PPgPoud8oDuAqkrfPvjI4iH1H3hekB3gXLW9LmQ7IpSHpBdIJ0153aIlIkYD4ODQ4QHZBcoXYFmok/Is6mYXtDiAqkrpvaH9O5Y6ol9oodTl7ejSDuQMJHaFdKvPZa6ItVEn8vt/c8BSFugiTxdscZE3xVX2/uvraQ9DEF/ViH9etTXFSkmxnvjavvQvbSHmi5S3y9F6gr3/fAQE+7ZYWxh7vNj0h5q7JDh9winPL9CMpHSE6cJAyGfJZQ2UborQp9dIZ4ppvbH+JmEz8RpO78jQvJu58/7nU4XoR2BbMLtitBzhNsRSf+OnT93hY2U2CExHeH7/aqSJtyuSDGxyvWCiykjuXzkNjHXEbF3PaF1RczZMouJSBdDbjO4yGnC9ZDjricNJqZea2b7/HmCi7uVnZHbxLgf1v4sMUJXDPtjycTSa801+Qcfx7WUkBgBAA==
+  </data>
+  </layer>
+  <layer name="Items" width="134" height="134">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bOw7CMBAFQPsW5J/7X4Gae7FliqUARdiQGWl7R3p5sSO5FAAAAAAAAAAAWrrVUoaYsbZeCT2ZIg9zzCIXHKyRhy1ml4vmdDcZ3U1GdwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC871ZLGWLG2nol9GSKPMwxi1xwsEYetphdLgAAPuYMRsYZjMzVz2D3iz43APAdD3sNTmb/2j/vPS3IHfTPNxyAV+zlgH+n5wAA4Lf4nw0AcD73/Mi450fm6vf8eqXHyehxMnocAAAAAHJPGdjZbJAYAQA=
+  </data>
+  </layer>
+  <objectgroup name="Triggers">
+    <object name="Dialog1" type="unitDetect" id="417" x="0" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="1s" />
+        <property name="globalMessage" value="萨布林:同志,这是西南方向敌人的一个专门提供资源的基地" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="map_info" id="419" x="0" y="20" width="20" height="20">
+      <properties>
+        <property name="fog" value="map" />
+        <property name="introText" value="萨布林:同志,我们在西南部战线的大部分军队处于劣势,敌人非常强大,一开始,我们竭尽全力试图打游击消耗他们,虽然效果是有的,但其影响入不敷出,我们虽然可以以最少的兵力消灭敌人的大部队,但每次我们消灭了敌人后,他们总能立刻换上另一打子,我军基本上无法推进,只能藏在隐蔽的地方打游击,正当我们前线的战士开始变得士气低迷的时候,我党地下党组织的经过不断的收集情报,终于确定了这里的位置——他们专门供给资源的基地,你将使用我军西南方面军第二精锐师的部分兵力来占领这里,只要可以夺取这里,我们或许可以利用这里的资源来进行突围,不仅大大削弱了敌军,还大大增强了我军的实力,到时候前线的战士们也将重振旗鼓、稳扎稳打,之后,我们可能会利用这里的资源研发一套完整的我军军备,当然,地下党组织还获取到了这样一个情报:看守当地的指挥官名为瓦西里·加尔夫,是联邦军中数量较为普遍的亲属家境贫寒、自身岁月静好、没有办法才继续待在军队的将军——虽然这位将军经常给他的父母送钱,但基本上都被各路大佬以各种名义收得差不多了,为了掩盖他的父母生活水平不好的事实,联邦的那群畜牲向这位这位军官的父母施压,要求他的父母不要透露实情;这名将军曾经在苏维埃联盟服役,在联邦夺取政权后,新政府所造成的军队问题令他深感厌恶,因为实在是没有饭吃了,所以就继续留在了军队当中去——利用这些情报,我们或许可以在这次战役中策反这位军官为我们而战,我们已经设法利用地下党组织的情报及地道战还有当地反抗组织及人民组成的游击队切断了该基地与其他基地的补给网与网络信号,我们将会趁此机会派出更多的游击队前来支援你的军队,但同时,你也要注意,请立刻完成对这一基地敌人的劝降活动,这并不是什么事,因为加尔夫将军和他的手下们曾经也算是我们的人,所以多多少少都对以前非常怀恋,并且他和他的手下们仅仅只是为了混口饭吃才继续留在联邦的军队的/>
+		<property name="loseCondition" value="allUnitsAndBuildings" />
+        <property name="winCondition" value="allUnitsAndBuildings" />
+        <property name="type" value="mission" />
+      </properties>
+    </object>
+    <object name="Dialog2" type="unitDetect" id="420" x="20" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="6s" />
+        <property name="globalMessage" value="萨布林:以眼下的情况来看最好尽早胜利完成这场战斗为妙" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog3" type="unitDetect" id="421" x="40" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="13s" />
+        <property name="globalMessage" value="萨布林:因为我们有着足以使这所基地的指挥官归降我们的情报,并且敌军主力很快就会赶来" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog4" type="unitDetect" id="422" x="60" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="18s" />
+        <property name="globalMessage" value="萨布林:我们的游击队已经尽力去干扰他们了,并且这场富裕仗我们只能够维持这一次" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="mechMinigun (t:0)" type="unitDetect" id="1" rotation="90" x="2499" y="179" width="23" height="23">
+      <properties>
+        <property name="unit" value="mechMinigun" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="mechMinigun (t:0)" type="unitDetect" id="2" rotation="90" x="2519" y="259" width="23" height="23">
+      <properties>
+        <property name="unit" value="mechMinigun" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="mechMinigun (t:0)" type="unitDetect" id="3" rotation="90" x="2499" y="339" width="23" height="23">
+      <properties>
+        <property name="unit" value="mechMinigun" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:0)" type="unitDetect" id="4" rotation="90" x="2540" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:0)" type="unitDetect" id="5" rotation="90" x="2540" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:0)" type="unitDetect" id="6" rotation="90" x="2560" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="medium_main_battle_tank (t:0)" type="unitDetect" id="7" rotation="90" x="2560" y="140" width="20" height="20">
+      <properties>
+        <property name="unit" value="medium_main_battle_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="continuecase1" type="unitDetect" id="505" rotation="-90" x="230" y="230" width="20" height="20">
+      <properties>
+        <property name="unit" value="continuecase1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="red_army_barrack (t:0)" type="unitDetect" id="10" rotation="-90" x="2640" y="150" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_barrack" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="defensive_gun (t:0)" type="unitDetect" id="11" rotation="-90" x="2600" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="defensive_gun" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:0)" type="unitDetect" id="12" rotation="90" x="2560" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:0)" type="unitDetect" id="13" rotation="90" x="2560" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:0)" type="unitDetect" id="14" rotation="90" x="2560" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:0)" type="unitDetect" id="15" rotation="90" x="2560" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:0)" type="unitDetect" id="16" rotation="90" x="2560" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="17" rotation="90" x="2620" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="18" rotation="90" x="2620" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="19" rotation="90" x="2620" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="20" rotation="90" x="2620" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="21" rotation="90" x="2620" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="22" rotation="90" x="2620" y="360" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="23" rotation="90" x="2620" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="24" rotation="90" x="2600" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="25" rotation="90" x="2600" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="26" rotation="90" x="2600" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="27" rotation="90" x="2600" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="28" rotation="90" x="2600" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="29" rotation="90" x="2600" y="360" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:0)" type="unitDetect" id="30" rotation="90" x="2600" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="heavyInterceptor (t:0)" type="unitDetect" id="31" rotation="90" x="2640" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="heavyInterceptor" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="heavyInterceptor (t:0)" type="unitDetect" id="32" rotation="90" x="2640" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="heavyInterceptor" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="heavyInterceptor (t:0)" type="unitDetect" id="33" rotation="90" x="2640" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="heavyInterceptor" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="heavyInterceptor (t:0)" type="unitDetect" id="34" rotation="90" x="2640" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="heavyInterceptor" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="heavyInterceptor (t:0)" type="unitDetect" id="35" rotation="90" x="2640" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="heavyInterceptor" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="heavyInterceptor (t:0)" type="unitDetect" id="36" rotation="90" x="2640" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="heavyInterceptor" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="37" rotation="-90" x="1830" y="150" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="outpostT1 (t:1)" type="unitDetect" id="38" rotation="-90" x="1820" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="outpostT1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="39" rotation="-90" x="2010" y="530" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="ground_turret_thermal_Ion_artillery_turret_T3B (t:1)" type="unitDetect" id="40" rotation="-90" x="30" y="50" width="20" height="20">
+      <properties>
+        <property name="unit" value="ground_turret_thermal_Ion_artillery_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="41" rotation="-90" x="340" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT2 (t:1)" type="unitDetect" id="42" rotation="-90" x="670" y="910" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT2" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT2 (t:1)" type="unitDetect" id="43" rotation="-90" x="970" y="910" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT2" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT2 (t:1)" type="unitDetect" id="44" rotation="-90" x="1250" y="930" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT2" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT3 (t:1)" type="unitDetect" id="45" rotation="-90" x="270" y="790" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT3 (t:1)" type="unitDetect" id="46" rotation="-90" x="10" y="730" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="patriot_turret_T3B (t:1)" type="unitDetect" id="47" rotation="-90" x="30" y="170" width="20" height="20">
+      <properties>
+        <property name="unit" value="patriot_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="patriot_turret_T3B (t:1)" type="unitDetect" id="48" rotation="-90" x="150" y="50" width="20" height="20">
+      <properties>
+        <property name="unit" value="patriot_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="Illuminating_artillery (t:0)" type="unitDetect" id="49" rotation="90" x="2620" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="Illuminating_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="50" rotation="-90" x="2200" y="2460" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="51" rotation="-90" x="2420" y="1740" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurret (t:1)" type="unitDetect" id="52" rotation="-90" x="2350" y="1210" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurret" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="53" rotation="-90" x="670" y="870" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="54" rotation="-90" x="970" y="870" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="55" rotation="-90" x="1250" y="890" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="56" rotation="-90" x="1770" y="530" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="57" rotation="-90" x="1970" y="330" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="58" rotation="-90" x="1990" y="150" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="59" rotation="-90" x="1730" y="310" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="60" rotation="-90" x="1670" y="130" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t2_gun (t:1)" type="unitDetect" id="61" rotation="-90" x="1610" y="490" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t2_gun" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="62" rotation="-90" x="2320" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="63" rotation="-90" x="960" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="64" rotation="-90" x="160" y="2420" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="65" rotation="-90" x="20" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="66" rotation="-90" x="80" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="67" rotation="-90" x="140" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="68" rotation="-90" x="200" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="69" rotation="-90" x="260" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="70" rotation="-90" x="320" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="71" rotation="-90" x="380" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="72" rotation="-90" x="440" y="1720" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="73" rotation="-90" x="500" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="74" rotation="-90" x="560" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="75" rotation="-90" x="620" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="76" rotation="-90" x="680" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="77" rotation="-90" x="740" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="78" rotation="-90" x="800" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="79" rotation="-90" x="860" y="1760" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="80" rotation="-90" x="200" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="81" rotation="-90" x="140" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="82" rotation="-90" x="80" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="83" rotation="-90" x="20" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="84" rotation="-90" x="260" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="85" rotation="-90" x="320" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="86" rotation="-90" x="380" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="87" rotation="-90" x="440" y="1780" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="88" rotation="-90" x="500" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="89" rotation="-90" x="560" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="90" rotation="-90" x="620" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="91" rotation="-90" x="680" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="92" rotation="-90" x="740" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="93" rotation="-90" x="800" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="94" rotation="-90" x="860" y="1820" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="95" rotation="-90" x="20" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="96" rotation="-90" x="80" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="97" rotation="-90" x="140" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="98" rotation="-90" x="200" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="99" rotation="-90" x="260" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="100" rotation="-90" x="320" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="101" rotation="-90" x="380" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="102" rotation="-90" x="440" y="1840" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="103" rotation="-90" x="500" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="104" rotation="-90" x="560" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="105" rotation="-90" x="620" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="106" rotation="-90" x="680" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="107" rotation="-90" x="740" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="108" rotation="-90" x="800" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="109" rotation="-90" x="860" y="1880" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="110" rotation="-90" x="20" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="111" rotation="-90" x="80" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="112" rotation="-90" x="140" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="113" rotation="-90" x="200" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="114" rotation="-90" x="260" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="115" rotation="-90" x="320" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="116" rotation="-90" x="380" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="117" rotation="-90" x="440" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="118" rotation="-90" x="500" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="119" rotation="-90" x="560" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="120" rotation="-90" x="620" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="121" rotation="-90" x="680" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="122" rotation="-90" x="740" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="123" rotation="-90" x="800" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="124" rotation="-90" x="860" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="125" rotation="-90" x="20" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="126" rotation="-90" x="80" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="127" rotation="-90" x="140" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="128" rotation="-90" x="200" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="129" rotation="-90" x="260" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="130" rotation="-90" x="320" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="131" rotation="-90" x="380" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="132" rotation="-90" x="440" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="133" rotation="-90" x="500" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="134" rotation="-90" x="560" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="135" rotation="-90" x="620" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="136" rotation="-90" x="680" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="137" rotation="-90" x="740" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="138" rotation="-90" x="800" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="139" rotation="-90" x="860" y="2000" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="140" rotation="-90" x="20" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="141" rotation="-90" x="80" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="142" rotation="-90" x="140" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="143" rotation="-90" x="200" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="144" rotation="-90" x="260" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="145" rotation="-90" x="320" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="146" rotation="-90" x="380" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="147" rotation="-90" x="440" y="2020" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="148" rotation="-90" x="500" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="149" rotation="-90" x="560" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="150" rotation="-90" x="620" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="151" rotation="-90" x="680" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="152" rotation="-90" x="740" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="153" rotation="-90" x="800" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT3 (t:1)" type="unitDetect" id="154" rotation="-90" x="860" y="2060" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="155" rotation="-90" x="25" y="2075" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="156" rotation="-90" x="125" y="2075" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="157" rotation="-90" x="225" y="2075" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="158" rotation="-90" x="325" y="2075" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="159" rotation="-90" x="25" y="2175" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="160" rotation="-90" x="125" y="2175" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="161" rotation="-90" x="225" y="2175" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="162" rotation="-90" x="325" y="2175" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="163" rotation="-90" x="25" y="2275" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="164" rotation="-90" x="125" y="2275" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="165" rotation="-90" x="225" y="2275" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="166" rotation="-90" x="325" y="2275" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="commandCenter (t:1)" type="unitDetect" id="167" rotation="-90" x="435" y="2075" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="168" rotation="-90" x="2355" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="169" rotation="-90" x="2295" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="170" rotation="-90" x="2235" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="171" rotation="-90" x="2175" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="172" rotation="-90" x="2115" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="173" rotation="-90" x="2055" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="174" rotation="-90" x="1995" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="175" rotation="-90" x="1935" y="1277" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="176" rotation="-90" x="1935" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="177" rotation="-90" x="1995" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="178" rotation="-90" x="2055" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="179" rotation="-90" x="2115" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="180" rotation="-90" x="2175" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="181" rotation="-90" x="2235" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="182" rotation="-90" x="2295" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="183" rotation="-90" x="2355" y="1317" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="184" rotation="-90" x="1935" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="185" rotation="-90" x="1995" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="186" rotation="-90" x="2055" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="187" rotation="-90" x="2115" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="188" rotation="-90" x="2175" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="189" rotation="-90" x="2235" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="190" rotation="-90" x="2295" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="material_plant (t:1)" type="unitDetect" id="191" rotation="-90" x="2355" y="1357" width="30" height="30">
+      <properties>
+        <property name="unit" value="material_plant" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="192" rotation="-90" x="1930" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="193" rotation="-90" x="1970" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="194" rotation="-90" x="2010" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="195" rotation="-90" x="2050" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="196" rotation="-90" x="2090" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="197" rotation="-90" x="2130" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="198" rotation="-90" x="2170" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="199" rotation="-90" x="2210" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="200" rotation="-90" x="2250" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="201" rotation="-90" x="2290" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="202" rotation="-90" x="2330" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="203" rotation="-90" x="2370" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="204" rotation="-90" x="1930" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="205" rotation="-90" x="1970" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="206" rotation="-90" x="2010" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="207" rotation="-90" x="2050" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="208" rotation="-90" x="2090" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="209" rotation="-90" x="2130" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="210" rotation="-90" x="2170" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="211" rotation="-90" x="2210" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="212" rotation="-90" x="2250" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="213" rotation="-90" x="2290" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="214" rotation="-90" x="2330" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="215" rotation="-90" x="2370" y="1450" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="216" rotation="-90" x="1930" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="217" rotation="-90" x="1970" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="218" rotation="-90" x="2010" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="219" rotation="-90" x="2050" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="220" rotation="-90" x="2090" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="221" rotation="-90" x="2130" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="222" rotation="-90" x="2170" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="223" rotation="-90" x="2210" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="224" rotation="-90" x="2250" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="225" rotation="-90" x="2290" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="226" rotation="-90" x="2330" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="227" rotation="-90" x="2370" y="1490" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="228" rotation="-90" x="1930" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="229" rotation="-90" x="1970" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="230" rotation="-90" x="2010" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="231" rotation="-90" x="2050" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="232" rotation="-90" x="2090" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="233" rotation="-90" x="2130" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="234" rotation="-90" x="2170" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="235" rotation="-90" x="2210" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="236" rotation="-90" x="2250" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="237" rotation="-90" x="2290" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="238" rotation="-90" x="2330" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="239" rotation="-90" x="2370" y="1530" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="240" rotation="-90" x="1930" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="241" rotation="-90" x="1970" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="242" rotation="-90" x="2010" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="243" rotation="-90" x="2050" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="244" rotation="-90" x="2090" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="245" rotation="-90" x="2130" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="246" rotation="-90" x="2170" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="247" rotation="-90" x="2210" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="248" rotation="-90" x="2250" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="249" rotation="-90" x="2290" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="250" rotation="-90" x="2330" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="supply_depot_T3 (t:1)" type="unitDetect" id="251" rotation="-90" x="2370" y="1570" width="20" height="20">
+      <properties>
+        <property name="unit" value="supply_depot_T3" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurret (t:1)" type="unitDetect" id="252" rotation="-90" x="1910" y="1210" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurret" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="253" rotation="-90" x="1880" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="254" rotation="-90" x="1880" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="255" rotation="-90" x="1880" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="256" rotation="-90" x="1880" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="257" rotation="-90" x="1880" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="258" rotation="-90" x="1880" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="259" rotation="-90" x="1880" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="260" rotation="-90" x="1880" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="261" rotation="-90" x="1880" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="262" rotation="-90" x="1880" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="263" rotation="-90" x="1880" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="264" rotation="-90" x="1880" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="265" rotation="-90" x="1880" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="266" rotation="-90" x="1880" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="267" rotation="-90" x="1880" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="268" rotation="-90" x="1860" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="269" rotation="-90" x="1860" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="270" rotation="-90" x="1860" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="271" rotation="-90" x="1860" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="272" rotation="-90" x="1860" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="273" rotation="-90" x="1860" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="274" rotation="-90" x="1860" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="275" rotation="-90" x="1860" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="276" rotation="-90" x="1860" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="277" rotation="-90" x="1860" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="278" rotation="-90" x="1860" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="279" rotation="-90" x="1860" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="280" rotation="-90" x="1860" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="281" rotation="-90" x="1860" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="282" rotation="-90" x="1840" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="283" rotation="-90" x="1840" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="284" rotation="-90" x="1840" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="285" rotation="-90" x="1840" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="286" rotation="-90" x="1840" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="287" rotation="-90" x="1840" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="288" rotation="-90" x="1840" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="289" rotation="-90" x="1840" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="290" rotation="-90" x="1840" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="291" rotation="-90" x="1840" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="292" rotation="-90" x="1840" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="293" rotation="-90" x="1840" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="294" rotation="-90" x="1840" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="295" rotation="-90" x="1840" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="296" rotation="-90" x="1840" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="297" rotation="-90" x="1820" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="298" rotation="-90" x="1820" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="299" rotation="-90" x="1820" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="300" rotation="-90" x="1820" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="301" rotation="-90" x="1820" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="302" rotation="-90" x="1820" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="303" rotation="-90" x="1820" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="304" rotation="-90" x="1820" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="305" rotation="-90" x="1820" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="306" rotation="-90" x="1820" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="307" rotation="-90" x="1820" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="308" rotation="-90" x="1820" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="309" rotation="-90" x="1820" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="310" rotation="-90" x="1820" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="311" rotation="-90" x="1800" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="312" rotation="-90" x="1800" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="313" rotation="-90" x="1800" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="314" rotation="-90" x="1800" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="315" rotation="-90" x="1800" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="316" rotation="-90" x="1800" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="317" rotation="-90" x="1800" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="318" rotation="-90" x="1800" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="319" rotation="-90" x="1800" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="320" rotation="-90" x="1800" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="321" rotation="-90" x="1800" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="322" rotation="-90" x="1800" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="323" rotation="-90" x="1800" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="324" rotation="-90" x="1800" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="325" rotation="-90" x="1780" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="326" rotation="-90" x="1780" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="327" rotation="-90" x="1780" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="328" rotation="-90" x="1780" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="329" rotation="-90" x="1780" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="330" rotation="-90" x="1780" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="331" rotation="-90" x="1780" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="332" rotation="-90" x="1780" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="333" rotation="-90" x="1780" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="334" rotation="-90" x="1780" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="335" rotation="-90" x="1780" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="336" rotation="-90" x="1780" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="337" rotation="-90" x="1780" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="338" rotation="-90" x="1780" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="339" rotation="-90" x="1760" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="340" rotation="-90" x="1760" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="341" rotation="-90" x="1760" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="342" rotation="-90" x="1760" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="343" rotation="-90" x="1760" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="344" rotation="-90" x="1760" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="345" rotation="-90" x="1760" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="346" rotation="-90" x="1760" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="347" rotation="-90" x="1760" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="348" rotation="-90" x="1760" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="349" rotation="-90" x="1760" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="350" rotation="-90" x="1760" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="351" rotation="-90" x="1760" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="352" rotation="-90" x="1760" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="353" rotation="-90" x="1740" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="354" rotation="-90" x="1740" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="355" rotation="-90" x="1740" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="356" rotation="-90" x="1740" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="357" rotation="-90" x="1740" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="358" rotation="-90" x="1740" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="359" rotation="-90" x="1740" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="360" rotation="-90" x="1740" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="361" rotation="-90" x="1740" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="362" rotation="-90" x="1740" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="363" rotation="-90" x="1740" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="364" rotation="-90" x="1740" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="365" rotation="-90" x="1740" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="366" rotation="-90" x="1740" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="367" rotation="-90" x="1720" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="368" rotation="-90" x="1720" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="369" rotation="-90" x="1720" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="370" rotation="-90" x="1720" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="371" rotation="-90" x="1720" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="372" rotation="-90" x="1720" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="373" rotation="-90" x="1720" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="374" rotation="-90" x="1720" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="375" rotation="-90" x="1720" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="376" rotation="-90" x="1720" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="377" rotation="-90" x="1720" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="378" rotation="-90" x="1720" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="379" rotation="-90" x="1720" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="380" rotation="-90" x="1700" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="381" rotation="-90" x="1700" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="382" rotation="-90" x="1700" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="383" rotation="-90" x="1700" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="384" rotation="-90" x="1700" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="385" rotation="-90" x="1700" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="386" rotation="-90" x="1700" y="1420" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="387" rotation="-90" x="1700" y="1440" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="388" rotation="-90" x="1700" y="1460" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="389" rotation="-90" x="1700" y="1480" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="390" rotation="-90" x="1700" y="1500" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="391" rotation="-90" x="1700" y="1520" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="392" rotation="-90" x="1700" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="393" rotation="-90" x="1720" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="394" rotation="-90" x="1700" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="395" rotation="-90" x="1860" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="396" rotation="-90" x="1820" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="397" rotation="-90" x="1800" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="398" rotation="-90" x="1780" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="399" rotation="-90" x="1760" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="400" rotation="-90" x="1740" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="401" rotation="-90" x="1720" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="402" rotation="-90" x="1700" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:1)" type="unitDetect" id="403" rotation="-90" x="1590" y="1230" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:1)" type="unitDetect" id="404" rotation="-90" x="1630" y="1590" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="405" rotation="-90" x="950" y="1670" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="builder (t:0)" type="unitDetect" id="406" rotation="90" x="2580" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder (t:0)" type="unitDetect" id="407" rotation="90" x="2580" y="160" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder (t:0)" type="unitDetect" id="408" rotation="90" x="2580" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Illuminating_artillery (t:0)" type="unitDetect" id="409" rotation="90" x="2620" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="Illuminating_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Illuminating_artillery (t:0)" type="unitDetect" id="410" rotation="90" x="2580" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="Illuminating_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Illuminating_artillery (t:0)" type="unitDetect" id="411" rotation="90" x="2580" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="Illuminating_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="scout_ordinary (t:0)" type="unitDetect" id="412" rotation="90" x="2540" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="scout_ordinary" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="scout_ordinary (t:0)" type="unitDetect" id="413" rotation="90" x="2540" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="scout_ordinary" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="scout_ordinary (t:0)" type="unitDetect" id="414" rotation="90" x="2660" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="scout_ordinary" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="scout_ordinary (t:0)" type="unitDetect" id="415" rotation="90" x="2660" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="scout_ordinary" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="experiment_artillery (t:0)" type="unitDetect" id="416" rotation="90" x="2600" y="120" width="20" height="20">
+      <properties>
+        <property name="unit" value="experiment_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Dialog5" type="unitDetect" id="417" x="80" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="25s" />
+        <property name="globalMessage" value="萨布林:替一位志愿冒险的同志在这边侦查了一下,差点我这条命丢了" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="scout1" type="unitAdd" id="419" x="-23" y="-5" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="scout_effect1_1s" />
+        <property name="delay" value="25s" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Dialog6" type="unitDetect" id="420" x="100" y="0" width="20" height="20">
+      <properties>
+        <property name="delay" value="30s" />
+        <property name="globalMessage" value="加尔夫将军:希望你们的攻势不要太大" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="team_1_info" type="team_info" id="421" x="20" y="20" width="20" height="20">
+      <properties>
+        <property name="credits" value="1400" />
+        <property name="team" value="0" />
+        <property name="allyGroup" value="0" />
+      </properties>
+    </object>
+    <object name="team_2_info" type="team_info" id="422" x="40" y="20" width="20" height="20">
+      <properties>
+        <property name="credits" value="0" />
+        <property name="team" value="1" />
+        <property name="allyGroup" value="1" />
+      </properties>
+    </object>
+    <object name="Dialog7" type="unitDetect" id="423" x="60" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="39s" />
+        <property name="globalMessage" value="我:这个世界蒸蒸日上,联邦统治下的地球太好了,不是吗? " />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog8" type="unitDetect" id="424" x="80" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="48s" />
+        <property name="globalMessage" value="加尔夫将军:好你大坝,我的士兵们一个月才四五千,你个被共产主义所溺爱的巨婴" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog9" type="unitDetect" id="425" x="100" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="57s" />
+        <property name="globalMessage" value="我:抱歉,我戳中了你的痛点" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog10" type="unitDetect" id="426" x="120" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="66s" />
+        <property name="globalMessage" value="我:我这样的,对比一下曾经与现在的天下吧" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog12" type="unitDetect" id="427" x="140" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="75s" />
+        <property name="globalMessage" value="我:你应该熟悉曾经的日子,对吧,早上九点上班、下午四点下班后在个人计算机上打把游戏的日子多好啊" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+      </properties>
+    </object>
+    <object name="Dialog13" type="unitDetect" id="428" x="160" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="80s" />
+        <property name="globalMessage" value="加尔夫将军:没事，以前的日子确实挺好的,只可惜回不去了" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog14" type="unitDetect" id="429" x="180" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="90s" />
+        <property name="globalMessage" value="加尔夫将军:新政府是违背初心、乱搞冒险主义的" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog15" type="unitDetect" id="430" x="200" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="100s" />
+        <property name="globalMessage" value="加尔夫将军:如果再新的政府比原来的政府还要糟糕,那么这是不值得去争取的" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog16" type="unitDetect" id="431" x="220" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="115s" />
+        <property name="globalMessage" value="萨布林:这是一个很明显的问题——我们并非出于冒险的想法才革命的" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog17" type="unitDetect" id="432" x="240" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="130s" />
+        <property name="globalMessage" value="萨布林:我们仅仅只是想要回到那个人类才是地球第一的时代,因此,现在革命其实不算太晚" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog18" type="unitDetect" id="433" x="260" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="135s" />
+        <property name="globalMessage" value="萨布林:在老表们的充斥着冒险主义的政治下,现如今人还不如狗活得好,环境被破坏了?民众的问题!" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog19" type="unitDetect" id="434" x="280" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="142s" />
+        <property name="globalMessage" value="加尔夫将军:不要再煽情了,自打一开始我就准备归降你们的,只不过有东西一直在盯着我看" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog20" type="unitDetect" id="435" x="260" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="150s" />
+        <property name="globalMessage" value="萨布林:好,(用喇叭喊)我们的战士们现已将你包围,请立即投降,缴枪不杀!" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog21" type="unitDetect" id="436" x="300" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="160s" />
+        <property name="globalMessage" value="加尔夫将军:伙计们,我们现如今已四面楚歌,任何抵抗行动没有任何意义,跟着红军走吧" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog22" type="unitDetect" id="437" x="320" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="164s" />
+        <property name="globalMessage" value="加尔夫麾下部队:明白!" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="swapcontrol1" type="unitAdd" id="438" x="280" y="2060" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol2" type="unitAdd" id="439" x="600" y="2060" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol3" type="unitAdd" id="440" x="940" y="1760" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol4" type="unitAdd" id="441" x="1680" y="1380" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol5" type="unitAdd" id="442" x="2020" y="1360" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol6" type="unitAdd" id="443" x="2240" y="1360" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol7" type="unitAdd" id="445" x="2440" y="1800" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="divs1" type="unitAdd" id="447" x="0" y="220" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="medium_main_battle_tank*30" />
+        <property name="team" value="1" />
+        <property name="warmup" value="170s" />
+      </properties>
+    </object>
+    <object name="divs3" type="unitAdd" id="448" x="0" y="260" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="missileAirship*46" />
+        <property name="team" value="1" />
+        <property name="warmup" value="170s" />
+      </properties>
+    </object>
+    <object name="divs2" type="unitAdd" id="450" x="0" y="240" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="builder*10" />
+        <property name="team" value="1" />
+        <property name="warmup" value="170s" />
+      </properties>
+    </object>
+    <object name="divs4" type="unitAdd" id="451" x="80" y="240" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="landFactory*1" />
+        <property name="team" value="1" />
+        <property name="warmup" value="170s" />
+      </properties>
+    </object>
+    <object name="divs5" type="unitAdd" id="452" x="80" y="80" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="antiNukeLauncherC*1" />
+        <property name="team" value="1" />
+        <property name="warmup" value="170s" />
+      </properties>
+    </object>
+    <object name="resources1" type="objective" id="453" x="300" y="40" width="20" height="20">
+      <properties>
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+        <property name="changeCredits" value="700000,material=50000,experiment=1000000" />
+      </properties>
+    </object>
+    <object name="swapcontrol10" type="unitAdd" id="454" x="1380" y="2420" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol11" type="unitAdd" id="455" x="1880" y="2040" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol12" type="unitAdd" id="456" x="100" y="1740" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol13" type="unitAdd" id="457" x="520" y="1760" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="swapcontrol14" type="unitAdd" id="458" x="980" y="920" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="Dialog23" type="unitDetect" id="500" x="340" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="170s" />
+        <property name="globalMessage" value="加尔夫将军:他们来了!" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog24" type="unitDetect" id="501" x="360" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="177s" />
+        <property name="globalMessage" value="萨布林:大势不妙,游击队撑不住了,我立刻让所有游击队员赶到你这里" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog25" type="unitDetect" id="502" x="360" y="20" width="20" height="20">
+      <properties>
+        <property name="delay" value="184s" />
+        <property name="globalMessage" value="亚历山大将军:叛徒应该去死" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="sup9" type="unitAdd" id="466" rotation="-175" x="2640" y="1500" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="red_army_soldier*20" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup10" type="unitAdd" id="467" rotation="-175" x="2640" y="1340" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="artillery_soldier*3" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="swapcontroll-1" type="unitDetect" id="471" x="2220" y="2480" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="s_control2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="160s" />
+      </properties>
+    </object>
+    <object name="sup1" type="unitAdd" id="472" rotation="93" x="1200" y="2660" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="tank*4" />
+        <property name="warmup" value="180s" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="sup2" type="unitAdd" id="473" rotation="93" x="1100" y="2660" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="Militia*26" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup3" type="unitAdd" id="474" rotation="93" x="1280" y="2660" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="builder*1" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup4" type="unitAdd" id="475" rotation="-175" x="2660" y="2180" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="red_army_soldier*15" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup6" type="unitAdd" id="476" rotation="-175" x="2660" y="2200" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="TS_specialFores_sniper*1" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup5" type="unitAdd" id="477" rotation="93" x="1160" y="2660" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="red_army_anti_tank_soldier*2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup7" type="unitAdd" id="478" rotation="-175" x="2660" y="2180" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="TS_antiTank_specialForces*7" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup8" type="unitAdd" id="479" rotation="-175" x="2660" y="1940" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="sovietRust_light_tank_case2*1" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+    <object name="sup9" type="unitAdd" id="480" rotation="93" x="1220" y="2660" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="artillery_soldier*2" />
+        <property name="team" value="0" />
+        <property name="warmup" value="180s" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

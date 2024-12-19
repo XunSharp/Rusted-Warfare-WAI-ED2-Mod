@@ -1,0 +1,925 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="20" tileheight="20" nextobjectid="162">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="units.tsx" firstgid="1" />
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset firstgid="298" name="decoration" columns="7" tilecount="35" tileheight="20" tilewidth="20">
+    <image source="bitmaps/decoration.png" width="140" height="100" trans="" />
+    <tile id="21">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="22">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="28">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="29">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="terrain/Ice.tsx" firstgid="404" />
+  <tileset source="terrain/Long Grass.tsx" firstgid="429" />
+  <tileset firstgid="553" name="Snow" columns="8" tilecount="80" tileheight="20" tilewidth="20">
+    <image source="bitmaps/snow.png" width="160" height="200" trans="008a76" />
+    <tile id="11">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="32">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="33">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="40">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="41">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="43">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="ridges/Ice Ice - Flat.tsx" firstgid="712" />
+  <tileset source="ridges/Ice ShallowWater - Broken.tsx" firstgid="733" />
+  <tileset source="ridges/Ice ShallowWater - Ridge.tsx" firstgid="754" />
+  <tileset source="ridges/LongGrass LongGrass - Ridge.tsx" firstgid="847" />
+  <tileset source="ridges/Snow Ice - Ridge.tsx" firstgid="1459" />
+  <tileset firstgid="1645" name="snow2longgrass_flat" columns="3" tilecount="21" tileheight="20" tilewidth="20">
+    <image source="bitmaps/snow2longgrass_flat.png" width="60" height="140" />
+  </tileset>
+  <tileset firstgid="1666" name="water" columns="1" tilecount="1" tileheight="20" tilewidth="20">
+    <properties>
+      <property name="embedded_png">
+iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARzQklUCAgI
+CHwIZIgAAAKqSURBVDiNVZTdjh01EIQ/d9uembM5yQaCkFAE4qF4U94HBXEBiYJ2N5ydH/9xMelm
+8dXIY5erq6s6vPvl1yEi9N4B2PcdEQFARBhjkFKitUYIgTEGIkIIgd47vXdijP4/9t5prZFS4m4J
+1Kr/O9B75zgO/1ZVWmsA9N6Zpolt21DVE9BYHMdB7xFVpZSCqpJz5rIEbs8naM4ZIxBCIIQAwDRN
+/7FVVWqtHMdBSsnLaa2xriv7fpZveyKCiHgVpRRSShiOlFLovTPPM6UUWmu01ui9O0jdV3rvmNbf
+vl2otdJaY4zBGIPrq0iMERljEGMkpURKyZshIs747vW9g4UQePxykhjlQESotfLwuJ8Me++s68q2
+bYwxeHM9O2oip5RcdGNUaz0fyxOqSu+dWivLsiAhBC6XCyEERISHp8NZmgTWYYCUktvHwABijGzb
+hizL4pcM4OWr1knr/HEcjDEopbDvu3e71so0Tci2bdj6+cd7YozOIMboTEx82xMRpmnyR3POVtkp
+6hiDD388OXjdV0II3L+ZXDNboVd6787aqrndbifgPM+EENhuX9y4890VEeHz388exVordV/RPKOq
+fP/d1aNXSiHnTLRYqSrz3dX1tH3zolmrtcZxnI378+OTa2w+lpSS++vlUMg5+3Awy1iKAJZlYZqm
+08xf78UYkX3fiTF6B60BFv6cM5YmY55SYt93SilO5Kf3r880mYFNYDv0svScs180vVUVwG322+8P
+J6BNCQBVZVkWt8039/Ppra9RXNeVGKNPFhGh7iv7fsZOVU+GpsP1VfQXW2t8+nzzSWOy2Ey0afPD
++3ce0xDCORxsPT4dbmCLW2uNuq0AnpAxBtvzMzln/vr4j1cIIKrCS1ARccu4XtPsQ0FV2baN+XLx
+btvZMTr/Ai9IC52JfTPuAAAAAElFTkSuQmCC
+</property>
+    </properties>
+    <image source="../../water.png" width="20" height="20" />
+    <tile id="0">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <layer name="Ground" width="100" height="100">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO2aQW7VMBCGk1btBYvgAL0CsKe3oIVL0IdaEPSplEURLHgHgAU7toDEDpEgLIw1Y8/Edmwn/+LbtO+5znyeGdvp0X7XHQl51Xfda4urXv7dkYvh8++dMSik4x4P3AvMcU52AzfM3KXzGj+7tcZ45ox32/NjXnm+95KYl3ROUh93Ip57Thcj18PvPgp9vGPG2fT/1vUlsba1+SGJFfdct87PqNzQPLcmzm8E+Fxonj+mxrg+3nrGm1qrNsyYVG7YTiQxTBVnKZK1Yj57TvzdUAw/DLzo/1+7XPxS1iouN1ogFAcujil7r3Qsrla5a8WXG7UTypGY+FE+TOzs/h7TN1ym5AaXs7U5GWNg4mZ6NtW3Y/Mj5COni1qhetzN39qvyQeuh8T44FzY+4PcLrg95tzEuJDmiG/8HVHfKHL0jG0lDqSxSpEjIRdrqVPSHhbrgssRSd5ReUXN25cb7jmxZbaJXFCxlfRwyRyXkBsaUriw647pA1N7+JpdxPowdztUbH0+fLlh7iFTu3h02HX3GyBljTKEeockN6bsp3wxfzDwsAFS50VMbmh9uPFvJeapfYTOG5wPan9L3WNytWqJ8c/tQ3M/L80N42GJ8Y/xwdWpsQebc4MmNyjs3FiThyk+pt4d2i5851TjYo0etD6k69u9S5Z8b/Rw13KxRg8aH9SeyHf/Z98lS1ysPSekPkL7Wg2uP+SEzodbZ7h7O9//MEj2UHDB+9gJ6wx1ZpD0BxvkBY3UgZZjIvat3mHMCefA3OuF3qNQa59ygNjLoHpD6N2pZO3DwXQf2vqPtZ8PqtaEag8c5EP6ngTxBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqJvzg67bZOT5QflnbIXRxXbgIiPXcPIHydoNuXjcy2J+GvgcnORd81Jsn2t3QsXnrKdjlZozZuxrQc4utQ9J6khLXC7Ah5Rve133neFzBD/20tW8tfj4NMTs18DJYXq6/WlOqLxuvf9I1/DXTC5inWj6Twuecsa4pJNWPZV2QDnR9B67h4VcuvXN9Jyaalzu+D7p53P5MyK3YvbYKfffpfOhFh9U3sR8Z+p+r+R6rtVHaA+nIdaHlKcVepuyH+DuCFIxl49aGZ1Q59Wc+zZfXq3dh89TrrsB5EdaTzmdwMc0J9y9nOR+zlcPl+ijhT0ft7fTnjVLP8dS8NU9TY6Ufo6UlM6jL4SP8Vy4Vh+lsX3Y5xr4KO8D9SoPmnsIzoemp5d+3iWRoqeXfoapa7FWYmuW9u+V3sPUztw+AHzkIkd9jD2DlI7JErBrOPKjLmL3vKXnvzTcPe+p8pxeev4tIe033F0vfJTB9XGmeHdbeu41kepshfyoixgfvwGDfVycQJwAAA==
+  </data>
+  </layer>
+  <layer name="Items" width="100" height="100">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3bSU7DQBAFUIdTMAW4AmO4/8loxAKJKMIYt1PV9Z7Uuyxst3v6rkwTQD6Xu2m6au16d+4r4dNN64fb1vb6I4S71g/3rT3oDwZhzo/FnB+LOR8AAPpyJv3yeNH393NlOZP2uv9oqpxJq/RnBW/68qSnBc/mtfPzfCnQXxHvccm7AKdkX0Ofk1//lg6eFQWsnQ+8bzRuRp3LsuQDVUTNB+R6sUQat9n3qWuIOm6JY04+IGvrI2JelJX5HsiiZy6/Vf4wmlHzlDm8M8wld4klUu4ymiXfwOQuua29D+hdW1ONvQrwG/PEWKyjwKh8D4T1qF/+O3tmAMi/HmbbAzkD1fXfsaYuIRZ1CbGoS4DtjLYeZdtL/mQ9+hbhW6r1CKAmWQ8c8397IIvsuQAAAACMInsdKwDnE6FmCAAAADj2AWUIyiJAnAAA
+  </data>
+  </layer>
+  <objectgroup name="Triggers">
+    <object name="TS_specialForces (t:2)" type="unitDetect" id="1" rotation="90" x="120" y="1280" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:2)" type="unitDetect" id="2" rotation="90" x="220" y="1260" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:2)" type="unitDetect" id="3" rotation="90" x="600" y="1260" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:2)" type="unitDetect" id="4" rotation="90" x="820" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_specialForces (t:2)" type="unitDetect" id="5" rotation="90" x="1760" y="1660" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_specialFores_sniper (t:2)" type="unitDetect" id="6" rotation="90" x="700" y="1400" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_specialFores_sniper" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:2)" type="unitDetect" id="7" rotation="90" x="100" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:2)" type="unitDetect" id="8" rotation="90" x="640" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="TS_antiTank_specialForces (t:2)" type="unitDetect" id="9" rotation="90" x="1740" y="1660" width="20" height="20">
+      <properties>
+        <property name="unit" value="TS_antiTank_specialForces" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="10" rotation="90" x="60" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="11" rotation="90" x="120" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="12" rotation="90" x="180" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="13" rotation="90" x="640" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="14" rotation="90" x="720" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="15" rotation="90" x="840" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="16" rotation="90" x="1420" y="1580" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_soldier (t:2)" type="unitDetect" id="17" rotation="90" x="1760" y="1680" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="18" rotation="90" x="60" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="19" rotation="90" x="180" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="20" rotation="90" x="680" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="21" rotation="90" x="760" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="22" rotation="90" x="1400" y="1540" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="23" rotation="90" x="1460" y="1560" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="red_army_anti_tank_soldier (t:2)" type="unitDetect" id="24" rotation="90" x="1760" y="1640" width="20" height="20">
+      <properties>
+        <property name="unit" value="red_army_anti_tank_soldier" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="barrack (t:2)" type="unitDetect" id="25" rotation="-90" x="30" y="1354" width="20" height="20">
+      <properties>
+        <property name="unit" value="barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="barrack (t:2)" type="unitDetect" id="26" rotation="-90" x="770" y="1394" width="20" height="20">
+      <properties>
+        <property name="unit" value="barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="barrack (t:2)" type="unitDetect" id="27" rotation="-90" x="1770" y="1714" width="20" height="20">
+      <properties>
+        <property name="unit" value="barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="commandCenter (t:2)" type="unitDetect" id="28" rotation="-90" x="155" y="1235" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="extractorT1 (t:0)" type="unitDetect" id="29" rotation="-90" x="240" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT1" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:2)" type="unitDetect" id="30" rotation="-90" x="90" y="1130" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:2)" type="unitDetect" id="31" rotation="-90" x="1490" y="1290" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="c_turret_t1 (t:2)" type="unitDetect" id="32" rotation="-90" x="1770" y="1430" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurret (t:2)" type="unitDetect" id="33" rotation="-90" x="1590" y="1410" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurret" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurret (t:2)" type="unitDetect" id="34" rotation="-90" x="230" y="1170" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurret" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="commandCenter (t:1)" type="unitDetect" id="35" rotation="-90" x="1575" y="175" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="commandCenter (t:1)" type="unitDetect" id="36" rotation="-90" x="115" y="635" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="37" rotation="-90" x="50" y="650" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="38" rotation="-90" x="1470" y="270" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="39" rotation="-90" x="1830" y="530" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT2 (t:1)" type="unitDetect" id="40" rotation="-90" x="1650" y="410" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT2" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_antiAirTurretT2 (t:1)" type="unitDetect" id="41" rotation="-90" x="210" y="630" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_antiAirTurretT2" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="42" rotation="-90" x="1700" y="140" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="43" rotation="-90" x="360" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="44" rotation="-90" x="80" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="45" rotation="-90" x="1760" y="580" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="46" rotation="-90" x="1000" y="540" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT3_overclocked (t:1)" type="unitDetect" id="47" rotation="-90" x="120" y="820" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT3_overclocked" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="experimentalLandFactory (t:1)" type="unitDetect" id="48" rotation="-90" x="803" y="23" width="55" height="55">
+      <properties>
+        <property name="unit" value="experimentalLandFactory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laboratoryT3B (t:1)" type="unitDetect" id="49" rotation="-90" x="1145" y="155" width="50" height="50">
+      <properties>
+        <property name="unit" value="laboratoryT3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="experimental_land_factory (t:1)" type="unitDetect" id="50" rotation="-90" x="1155" y="635" width="30" height="30">
+      <properties>
+        <property name="unit" value="experimental_land_factory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="ground_turret_combat_machine_turret_T3B (t:1)" type="unitDetect" id="51" rotation="-90" x="1110" y="870" width="20" height="20">
+      <properties>
+        <property name="unit" value="ground_turret_combat_machine_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="patriot_turret_T3B (t:1)" type="unitDetect" id="52" rotation="-90" x="1750" y="10" width="20" height="20">
+      <properties>
+        <property name="unit" value="patriot_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="artillerySoldier (t:1)" type="unitDetect" id="53" rotation="90" x="1120" y="400" width="20" height="20">
+      <properties>
+        <property name="unit" value="artillerySoldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="artillerySoldier (t:1)" type="unitDetect" id="54" rotation="90" x="1820" y="500" width="20" height="20">
+      <properties>
+        <property name="unit" value="artillerySoldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="artillerySoldier (t:1)" type="unitDetect" id="55" rotation="90" x="1580" y="520" width="20" height="20">
+      <properties>
+        <property name="unit" value="artillerySoldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="artillerySoldier (t:1)" type="unitDetect" id="56" rotation="90" x="1300" y="420" width="20" height="20">
+      <properties>
+        <property name="unit" value="artillerySoldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="artillerySoldier (t:1)" type="unitDetect" id="57" rotation="90" x="1700" y="360" width="20" height="20">
+      <properties>
+        <property name="unit" value="artillerySoldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="artillerySoldier (t:1)" type="unitDetect" id="58" rotation="90" x="1860" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="artillerySoldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="59" rotation="90" x="1920" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="60" rotation="90" x="1940" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="61" rotation="90" x="1820" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="62" rotation="90" x="1860" y="360" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="63" rotation="90" x="1700" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="64" rotation="90" x="1780" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="65" rotation="90" x="1780" y="440" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="66" rotation="90" x="1860" y="440" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="67" rotation="90" x="1840" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="68" rotation="90" x="1760" y="380" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="69" rotation="90" x="1720" y="480" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="70" rotation="90" x="1720" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="71" rotation="90" x="1640" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="72" rotation="90" x="1680" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="73" rotation="90" x="1600" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="74" rotation="90" x="1920" y="500" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="75" rotation="90" x="1900" y="500" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="76" rotation="90" x="1940" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="77" rotation="90" x="1960" y="460" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="78" rotation="90" x="1920" y="420" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="79" rotation="90" x="1900" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="80" rotation="90" x="1900" y="280" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="81" rotation="90" x="1900" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="82" rotation="90" x="1940" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="83" rotation="90" x="1820" y="140" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="84" rotation="90" x="1800" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="85" rotation="90" x="1860" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="86" rotation="90" x="1740" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="87" rotation="90" x="1780" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="motorized_soldier (t:1)" type="unitDetect" id="88" rotation="90" x="1740" y="200" width="20" height="20">
+      <properties>
+        <property name="unit" value="motorized_soldier" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:2)" type="unitDetect" id="89" rotation="90" x="140" y="1140" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:2)" type="unitDetect" id="90" rotation="90" x="520" y="1220" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:2)" type="unitDetect" id="91" rotation="90" x="780" y="1200" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:2)" type="unitDetect" id="92" rotation="90" x="940" y="1260" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="93" rotation="90" x="380" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="94" rotation="90" x="400" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="95" rotation="90" x="420" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="96" rotation="90" x="380" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="97" rotation="90" x="400" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="98" rotation="90" x="420" y="1320" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:3)" type="unitDetect" id="99" rotation="90" x="440" y="20" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="hovercraft" type="unitDetect" id="106" x="320" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="hovercraft" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="hovercraft" type="unitDetect" id="114" x="360" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="hovercraft" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="hovercraft" type="unitDetect" id="115" x="420" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="hovercraft" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="hovercraft" type="unitDetect" id="116" x="460" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="hovercraft" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="118" rotation="90" x="320" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="120" rotation="90" x="340" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="121" rotation="90" x="360" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="122" rotation="90" x="360" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="123" rotation="90" x="380" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="127" rotation="90" x="400" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="128" rotation="90" x="440" y="1900" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="129" rotation="90" x="420" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="131" rotation="90" x="460" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="132" rotation="90" x="440" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="136" rotation="90" x="480" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sovietRust_light_tank (t:0)" type="unitDetect" id="138" rotation="90" x="460" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="sovietRust_light_tank" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="map_info" id="139" x="0" y="1980" width="20" height="20">
+      <properties>
+        <property name="fog" value="los" />
+        <property name="shareFogWithAllies" value="true" />
+        <property name="introText" value="萨布林:同志,这次任务你将要拿下远东方面库页岛地区,正如这次任务的代号所示,远在月球的伟大红十月革命红军的领导者托洛茨基虽年近八旬,但为了全体布尔什维克的革命成果返回了地球,并立即加入到了我们的革命事业,有了托先知的加入,我们成功将特种部队常规化,并且他还改革了我们一直以来军队的诸多问题,在东亚东北人民游击队同志的支持下,托洛茨基同志带领了一支军队占领了这里--库页岛,我相信,在他的英明的领导下与全世界被压迫人民的反抗下,脆弱不堪的地球帝国主义反动派与火星帝国主义反动派必将分崩离析,我们将引领每一位被压迫的人民获得真正的民主与自由!托洛茨基:同志们,终于到了我们为了革命成果,为了人民而革命的时候了,这群自称为民主主义者的狗日的孙吧来的玩意将我们生活过的地方一块一块的解剖,我对此十分愤怒,虽然我已经白发苍苍,但若是解放祖国的革命,我一定会加入的,年轻人,请允许我这样的老布尔什维克领导你们一步步地走向胜利! />
+        <property name="type" value="mission" />
+        <property name="loseCondition" value="allUnitsAndBuildings" />
+        <property name="winCondition" value="mainBuildings" />
+      </properties>
+    </object>
+    <object name="message1" type="unitDetect" id="140" x="20" y="1980" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="托洛茨基:同志,我会尽量为你多争取一些时间" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF0015FF" />
+        <property name="delay" value="1s" />
+      </properties>
+    </object>
+    <object name="message2" type="unitDetect" id="141" x="40" y="1980" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="托洛茨基:你的支援将促使我们更快地拿下库页岛" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF0015FF" />
+        <property name="delay" value="6s" />
+      </properties>
+    </object>
+    <object name="message3" type="unitDetect" id="142" x="60" y="1980" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="萨布林:若是能拿下这里,那么我们将无从担心总有一天会被消灭掉,离解放远东就不远了" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+        <property name="delay" value="11s" />
+      </properties>
+    </object>
+    <object name="team_0_info" type="team_info" id="149" x="0" y="1960" width="20" height="20">
+      <properties>
+        <property name="credits" value="55000" />
+        <property name="allyGroup" value="0" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="team_1_info" type="team_info" id="151" x="20" y="1960" width="20" height="20">
+      <properties>
+        <property name="credits" value="5000" />
+        <property name="allyGroup" value="1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="team_2_info" type="team_info" id="152" x="40" y="1960" width="20" height="20">
+      <properties>
+        <property name="credits" value="60000" />
+        <property name="allyGroup" value="0" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="team_3_info" type="team_info" id="153" x="60" y="1960" width="20" height="20">
+      <properties>
+        <property name="credits" value="0" />
+        <property name="allyGroup" value="2" />
+        <property name="team" value="3" />
+      </properties>
+    </object>
+    <object name="unitDetect" type="unitDetect" id="154" x="340" y="1300" width="100" height="80">
+      <properties>
+        <property name="globalMessage" value="托洛茨基:这些都是我们独立生产的轻型坦克" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF0015FF" />
+        <property name="maxUnits" value="0" />
+        <property name="showOnMap" value="true" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="builder" type="unitDetect" id="156" rotation="90" x="340" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder" type="unitDetect" id="161" rotation="90" x="340" y="1960" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder" type="unitDetect" id="159" rotation="90" x="340" y="1940" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder" type="unitDetect" id="160" rotation="90" x="380" y="1920" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="message4" type="unitDetect" id="161" x="60" y="1980" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="托洛茨基:为何你要死守这一片鸟不拉屎的地方? 我的敌人" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF0015FF" />
+        <property name="delay" value="20s" />
+      </properties>
+    </object>
+    <object name="message5" type="unitDetect" id="162" x="60" y="1980" width="20" height="20">
+      <properties>
+        <property name="globalMessage" value="蒋中正总统:老毛子,请滚出我们的领土,我不想掺和太多的事情" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0000" />
+        <property name="delay" value="25s" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>

@@ -1,0 +1,1343 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<map version="1.2" orientation="orthogonal" renderorder="right-down" width="70" height="70" tilewidth="20" tileheight="20" nextobjectid="371">
+  <properties>
+    <property name="sw1" value="546" />
+    <property name="sw2" value="429" />
+    <property name="sw6" value="418" />
+    <property name="sw5" value="640" />
+    <property name="sw3" value="504" />
+    <property name="sw4" value="334" />
+    <property name="tag" value="RW" />
+  </properties>
+  <tileset source="misc.tsx" firstgid="280" />
+  <tileset firstgid="298" name="decoration" columns="7" tilecount="35" tileheight="20" tilewidth="20">
+    <image source="bitmaps/decoration.png" width="140" height="100" trans="" />
+    <tile id="21">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="22">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="28">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+    <tile id="29">
+      <properties>
+        <property name="large-rock" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset firstgid="691" name="Dirt ShalowWater - Ridge" columns="3" tilecount="21" tileheight="20" tilewidth="20">
+    <image source="bitmaps/dirt2shallowwater_ridge.png" width="60" height="140" trans="008a76" />
+    <tile id="4">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="9">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="10">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="11">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="15">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="16">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="17">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="19">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="0">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="7">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="18">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="20">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="ridges/LongGrass Dirt - Flat.tsx" firstgid="775" />
+  <tileset source="ridges/LongGrass LongGrass - Ridge.tsx" firstgid="847" />
+  <tileset firstgid="877" name="LongGrass ShallowWater - Flat" columns="3" tilecount="21" tileheight="20" tilewidth="20">
+    <image source="bitmaps/longgrass2shallowwater_flat.png" width="60" height="140" trans="008a76" />
+    <tile id="0">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="7">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="18">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="20">
+      <properties>
+        <property name="cliff-soft" value="" />
+      </properties>
+    </tile>
+    <tile id="4">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="15">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="16">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="17">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="19">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset firstgid="898" name="LongGrass ShallowWater - Ridge" columns="3" tilecount="30" tileheight="20" tilewidth="20">
+    <image source="bitmaps/longgrass2shallowwater_ridge.png" width="60" height="200" trans="008a76" />
+    <tile id="0">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="1">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="2">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="3">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="5">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="6">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="7">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="8">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="9">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="11">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="12">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="14">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="18">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="20">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="21">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="23">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="24">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="26">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="27">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="28">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="29">
+      <properties>
+        <property name="large-cliff" value="" />
+      </properties>
+    </tile>
+    <tile id="4">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="10">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="13">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="15">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="16">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="17">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="19">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="22">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+    <tile id="25">
+      <properties>
+        <property name="water" value="" />
+      </properties>
+    </tile>
+  </tileset>
+  <tileset source="ridges/Mountain LongGrass - Flat.tsx" firstgid="985" />
+  <layer name="Ground" width="70" height="70">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XMU4DMRCF4WhpQNScLAgOQA1CdBwBSoqcBARtzoFEQ8E1sKW1tNodO97E4/GMX/GLIgitP71Yy/Zss9kSPbrexp4iv6Ot6/Hnn+vb9Zso9jcsu+TY9Ori+4EL6ZLaTM8uqc307hLbTO8usc3ABS4xF+q7BBd6M3CBC1yW3bluE5/P75geXA6ZUJuhPr93PRtxyTWJuXiLh7GpiWaXNSZzl5iFBZfUPUs1vWNiFj26TDdDOexcL5NeGzijtMtOsQOXiyWTY13CHWPh+1LSJWxG+tlbdPGbOS/QRQMGJV18lwW6ErLx7203ida803G4BJvaOzplD7VcJHak1SW2oxJ31Nr/fVpz4doW51Zacplv65BRTy4537/g1atLrhfXvS59zhJOHDbS52rVRvpMrdpIn6e0Tal3bumz1LRaYyT93NJ7iiX9rAghhBBCCCGEEELWex+WfQzyzyXd57BsT1jlZsWUcjmlvRGf0i5TH802XC6+L7iY2wyni+bNcLto3Qy3i1abGi4abWq5aLOp6RJsjn2Xrvm+WNtF2jU36XMiZKF/CnhtFpBMAAA=
+  </data>
+  </layer>
+  <layer name="Items" width="70" height="70">
+    <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3XSw7DIAxFUbKL/tv9r7LuqFLkCWpJrsM9ElNkYZkHrUmSZnZaWjvHuix7V9JndN3X2PcW617sXEbX/Yh9n7Fexc6lat2SJEmS9lP1vzxa1f/yaP47JUm/8u2R8+2R8+0hicYcy5ljOXNMmlvFzNii5p7MoJzhFjnXkxmU3KXlHK2eoyLMJaGGNcJcEmpYI8wloQbpg3h3ERDvLgLvLkmVmHG5WTKut/+zZByt/5Q5pfWf1icKWp/+jTIPNM5D7ujzIEmSvt6VjfajkEwAAA==
+  </data>
+  </layer>
+  <objectgroup name="Triggers">
+    <object name="commandCenter (t:1)" type="unitDetect" id="1" rotation="-90" x="1195" gid="461" y="1075" width="30" height="30">
+      <properties>
+        <property name="unit" value="commandCenter" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" type="unitDetect" id="2" rotation="90" x="180" y="1000" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" id="3" rotation="90" x="180" y="960" wtype="unitDetect" idth="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" id="4" rotation="90" x="180" y="920" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_medium_tank (t:0)" type="unitDetect" id="5" rotation="90" x="140" y="1000" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_medium_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_medium_tank (t:0)" type="unitDetect" id="6" rotation="90" x="140" y="960" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_medium_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_medium_tank (t:0)" type="unitDetect" id="7" rotation="90" x="140" y="920" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_medium_tank" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="mountain_tank (t:1)" type="unitDetect" id="8" rotation="90" x="1000" y="1040" width="21" height="21">
+      <properties>
+        <property name="unit" value="mountain_tank" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="mountain_tank (t:1)" type="unitDetect" id="9" rotation="90" x="1060" y="620" width="21" height="21">
+      <properties>
+        <property name="unit" value="mountain_tank" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="sea_saucer (t:0)" type="unitDetect" id="10" rotation="90" x="78" y="1338" width="24" height="24">
+      <properties>
+        <property name="unit" value="sea_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="sea_saucer (t:0)" type="unitDetect" id="11" rotation="90" x="78" y="1278" width="24" height="24">
+      <properties>
+        <property name="unit" value="sea_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="sea_saucer (t:0)" type="unitDetect" id="12" rotation="90" x="78" y="1218" width="24" height="24">
+      <properties>
+        <property name="unit" value="sea_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="fishboneShip (t:0)" type="unitDetect" id="13" rotation="90" x="137" y="1337" width="26" height="26">
+      <properties>
+        <property name="unit" value="fishboneShip" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="fishboneShip (t:0)" type="unitDetect" id="14" rotation="90" x="137" y="1277" width="26" height="26">
+      <properties>
+        <property name="unit" value="fishboneShip" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="fishboneShip (t:0)" type="unitDetect" id="15" rotation="90" x="137" y="1217" width="26" height="26">
+      <properties>
+        <property name="unit" value="fishboneShip" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="16" rotation="90" x="200" y="1340" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="17" rotation="90" x="200" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="18" rotation="90" x="200" y="1260" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="19" rotation="90" x="200" y="1220" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="20" rotation="90" x="120" y="1160" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="21" rotation="90" x="160" y="1160" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="22" rotation="90" x="120" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="armored_boat (t:0)" type="unitDetect" id="23" rotation="90" x="160" y="1380" width="20" height="20">
+      <properties>
+        <property name="unit" value="armored_boat" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="battlecruiser (t:1)" type="unitDetect" id="24" rotation="90" x="1350" y="1370" width="40" height="40">
+      <properties>
+        <property name="unit" value="battlecruiser" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="battlecruiser (t:1)" type="unitDetect" id="25" rotation="90" x="1250" y="1370" width="40" height="40">
+      <properties>
+        <property name="unit" value="battlecruiser" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="front_base (t:0)" type="unitDetect" id="26" rotation="-90" x="55" y="615" width="30" height="30">
+      <properties>
+        <property name="unit" value="front_base" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_builder (t:0)" type="unitDetect" id="27" rotation="90" x="60" y="680" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="builder (t:1)" type="unitDetect" id="28" rotation="90" x="1200" gid="501" y="1160" width="20" height="20">
+      <properties>
+        <property name="unit" value="builder" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="extractorT1 (t:1)" type="unitDetect" id="30" rotation="-90" x="1300" gid="481" y="160" width="20" height="20">
+      <properties>
+        <property name="unit" value="extractorT1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="39" rotation="90" x="280" y="60" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="40" rotation="90" x="300" y="60" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="41" rotation="90" x="280" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="42" rotation="90" x="300" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="43" rotation="90" x="320" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="44" rotation="90" x="320" y="60" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="APC (t:0)" type="unitDetect" id="45" rotation="90" x="300" y="20" width="20" height="20">
+      <properties>
+        <property name="unit" value="APC" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_light_tank (t:2)" type="unitDetect" id="46" rotation="173.16779" x="621.03156" y="3.2634363" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_light_tank" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="greenbelt_light_tank (t:2)" type="unitDetect" id="47" rotation="186.13379" x="659.99146" y="0.079652786" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_light_tank" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="greenbelt_builder (t:2)" type="unitDetect" id="48" rotation="90" x="620" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_builder" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="greenbelt_builder (t:2)" type="unitDetect" id="49" rotation="90" x="660" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_builder" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="50" rotation="-90" x="380" gid="500" y="20" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="51" rotation="-90" x="400" gid="500" y="20" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="52" rotation="-90" x="380" gid="500" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="creditsCrates (t:-1)" type="unitDetect" id="53" rotation="-90" x="400" gid="500" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="creditsCrates" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="greenbelt_builder (t:0)" id="54" rotation="90" x="380" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_builder" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" id="55" rotation="90" x="500" y="0" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" type="unitDetect" id="56" rotation="90" x="540" y="0" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_armor_vehicle (t:0)" type="unitDetect" id="57" rotation="90" x="580" y="0" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_armor_vehicle" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_Illuminating (t:0)" type="unitDetect" id="58" rotation="90" x="840" y="40" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_Illuminating" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" type="unitDetect" id="59" rotation="90" x="820" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_artillery (t:0)" type="unitDetect" id="60" rotation="90" x="860" y="80" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_artillery" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="61" rotation="-90" x="1210" gid="495" y="550" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="62" rotation="-90" x="1070" gid="495" y="810" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="63" rotation="-90" x="950" gid="495" y="1110" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="64" rotation="-90" x="1090" gid="495" y="1270" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="c_turret_t1_artillery (t:1)" type="unitDetect" id="65" rotation="-90" x="1350" gid="495" y="1290" width="20" height="20">
+      <properties>
+        <property name="unit" value="c_turret_t1_artillery" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="antiNukeLauncherC (t:1)" type="unitDetect" id="66" rotation="-90" x="1313" gid="463" y="1113" width="35" height="35">
+      <properties>
+        <property name="unit" value="antiNukeLauncherC" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="antiNukeLauncherC (t:1)" type="unitDetect" id="67" rotation="-90" x="1313" gid="463" y="673" width="35" height="35">
+      <properties>
+        <property name="unit" value="antiNukeLauncherC" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="anti_aircraft_gun_turret_T3B (t:1)" type="unitDetect" id="68" rotation="-90" x="1030" y="1150" width="20" height="20">
+      <properties>
+        <property name="unit" value="anti_aircraft_gun_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:0)" type="unitDetect" id="69" rotation="90" x="0" y="1180" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:0)" type="unitDetect" id="70" rotation="90" x="0" y="1240" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:0)" type="unitDetect" id="71" rotation="90" x="0" y="1300" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="flying_saucer (t:0)" type="unitDetect" id="72" rotation="90" x="0" y="1360" width="20" height="20">
+      <properties>
+        <property name="unit" value="flying_saucer" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_land_factory (t:0)" type="unitDetect" id="76" rotation="-90" x="19" y="180" width="63" height="63">
+      <properties>
+        <property name="unit" value="greenbelt_land_factory" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="airFactory (t:1)" type="unitDetect" id="77" rotation="-90" x="1215" gid="473" y="815" width="30" height="30">
+      <properties>
+        <property name="unit" value="airFactory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="mechFactory (t:1)" type="unitDetect" id="78" rotation="-90" x="1293" gid="477" y="813" width="35" height="35">
+      <properties>
+        <property name="unit" value="mechFactory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="mechFactory (t:1)" type="unitDetect" id="79" rotation="-90" x="1273" gid="477" y="1013" width="35" height="35">
+      <properties>
+        <property name="unit" value="mechFactory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="landFactory (t:1)" type="unitDetect" id="80" rotation="-90" x="1075" gid="471" y="915" width="30" height="30">
+      <properties>
+        <property name="unit" value="landFactory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="landFactory (t:1)" type="unitDetect" id="81" rotation="-90" x="1095" gid="471" y="1115" width="30" height="30">
+      <properties>
+        <property name="unit" value="landFactory" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="laserDefence (t:1)" type="unitDetect" id="82" rotation="-90" x="930" gid="469" y="1250" width="20" height="20">
+      <properties>
+        <property name="unit" value="laserDefence" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="fabricatorT1 (t:1)" type="unitDetect" id="85" rotation="-90" x="1320" gid="486" y="340" width="20" height="20">
+      <properties>
+        <property name="unit" value="fabricatorT1" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="experimentalSpider (t:1)" type="unitDetect" id="236" rotation="90" x="1191" gid="565" y="1231" width="39" height="39">
+      <properties>
+        <property name="unit" value="experimentalSpider" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="accelerated_gun_mech (t:1)" type="unitDetect" id="246" rotation="90" x="1380" y="980" width="20" height="20">
+      <properties>
+        <property name="unit" value="accelerated_gun_mech" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="accelerated_gun_mech (t:1)" type="unitDetect" id="247" rotation="90" x="1300" y="940" width="20" height="20">
+      <properties>
+        <property name="unit" value="accelerated_gun_mech" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="greenbeltNukeLauncher (t:0)" type="unitDetect" id="248" rotation="-90" x="23" y="43" width="55" height="55">
+      <properties>
+        <property name="unit" value="greenbeltNukeLauncher" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_barrack (t:2)" type="unitDetect" id="271" rotation="-90" x="970" y="5" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="greenbelt_barrack (t:2)" type="unitDetect" id="272" rotation="-90" x="930" y="5" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="greenbelt_barrack (t:2)" type="unitDetect" id="273" rotation="-90" x="890" y="5" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="greenbelt_barrack (t:2)" type="unitDetect" id="274" rotation="-90" x="850" y="5" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_barrack" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="anti_aircraft_gun_turret_T3B (t:1)" type="unitDetect" id="281" rotation="-90" x="1030" y="1090" width="20" height="20">
+      <properties>
+        <property name="unit" value="anti_aircraft_gun_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="anti_aircraft_gun_turret_T3B (t:1)" type="unitDetect" id="282" rotation="-90" x="1090" y="1050" width="20" height="20">
+      <properties>
+        <property name="unit" value="anti_aircraft_gun_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="anti_aircraft_gun_turret_T3B (t:1)" type="unitDetect" id="283" rotation="-90" x="1090" y="1210" width="20" height="20">
+      <properties>
+        <property name="unit" value="anti_aircraft_gun_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="anti_aircraft_gun_turret_T3B (t:1)" type="unitDetect" id="284" rotation="-90" x="1170" y="1030" width="20" height="20">
+      <properties>
+        <property name="unit" value="anti_aircraft_gun_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="anti_aircraft_gun_turret_T3B (t:1)" type="unitDetect" id="285" rotation="-90" x="1150" y="1230" width="20" height="20">
+      <properties>
+        <property name="unit" value="anti_aircraft_gun_turret_T3B" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="defensive_gun (t:2)" type="unitDetect" id="286" rotation="-90" x="780" y="400" width="20" height="20">
+      <properties>
+        <property name="unit" value="defensive_gun" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="defensive_gun (t:2)" type="unitDetect" id="287" rotation="-90" x="660" y="440" width="20" height="20">
+      <properties>
+        <property name="unit" value="defensive_gun" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="defensive_gun (t:2)" type="unitDetect" id="288" rotation="-90" x="480" y="420" width="20" height="20">
+      <properties>
+        <property name="unit" value="defensive_gun" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="289" rotation="90" x="540" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="290" rotation="90" x="840" y="100" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="291" rotation="90" x="880" y="100" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="Militia (t:0)" type="unitDetect" id="292" rotation="90" x="380" y="100" width="20" height="20">
+      <properties>
+        <property name="unit" value="Militia" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="gas_effect_forever (t:-2)" type="unitDetect" id="293" rotation="-90" x="580" y="940" width="20" height="20">
+      <properties>
+        <property name="unit" value="gas_effect_forever" />
+        <property name="team" value="-2" />
+      </properties>
+    </object>
+    <object name="antitankgun (t:0)" type="unitDetect" id="298" rotation="-60" x="350" y="185" width="20" height="20">
+      <properties>
+        <property name="unit" value="antitankgun" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="299" rotation="60" x="740" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="300" rotation="60" x="740" y="200" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="301" rotation="60" x="860" y="140" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="302" rotation="60" x="680" y="100" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="303" rotation="60" x="540" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="304" rotation="60" x="480" y="140" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="305" rotation="60" x="400" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_laser_soldier (t:0)" type="unitDetect" id="306" rotation="60" x="500" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_laser_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="307" rotation="60" x="440" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="308" rotation="60" x="500" y="160" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="309" rotation="60" x="420" y="160" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="310" rotation="60" x="600" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="311" rotation="60" x="720" y="160" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="312" rotation="60" x="820" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="313" rotation="60" x="820" y="320" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="314" rotation="60" x="720" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="315" rotation="60" x="780" y="160" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="316" rotation="60" x="840" y="200" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="317" rotation="60" x="620" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="318" rotation="60" x="720" y="400" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="319" rotation="60" x="440" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_soldier (t:0)" type="unitDetect" id="320" rotation="60" x="340" y="220" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_tank_soldier (t:0)" type="unitDetect" id="321" rotation="60" x="600" y="260" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_tank_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_tank_soldier (t:0)" type="unitDetect" id="322" rotation="60" x="680" y="180" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_tank_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_tank_soldier (t:0)" type="unitDetect" id="323" rotation="60" x="740" y="420" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_tank_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_tank_soldier (t:0)" type="unitDetect" id="324" rotation="60" x="800" y="300" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_tank_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_tank_soldier (t:0)" type="unitDetect" id="325" rotation="60" x="420" y="240" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_tank_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="greenbelt_anti_tank_soldier (t:0)" type="unitDetect" id="326" rotation="60" x="660" y="200" width="20" height="20">
+      <properties>
+        <property name="unit" value="greenbelt_anti_tank_soldier" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="map_info" id="328" x="0" y="0" width="20" height="20">
+      <properties>
+        <property name="fog" value="los" />
+        <property name="type" value="mission" />
+        <property name="introText" value="指挥官,元首发现铁锈联邦的空降仓部队并没有被全部消灭,他们悄悄进行了发展,我们斯登港的村庄开始遭遇攻击,我们已经将所有的平民疏散到了远离战场的地方了,剩下的国民警卫队或许可以帮到你一点忙,你将指挥第289师团第8中型坦克装甲师;第6、7精锐步兵师及第3超级坦克装甲师稍后会来支援你,利用好我们的核武器及为数不多的宝贝海军粉碎他们" />
+        <property name="winCondition" value="commandCenter" />
+        <property name="loseCondition" value="allUnitsAndBuildings" />
+      </properties>
+    </object>
+    <object name="team_0_info" type="team_info" id="331" x="110" y="610">
+      <point />
+      <properties>
+        <property name="allyGroup" value="0" />
+        <property name="credits" value="160000" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="team_1_info" type="team_info" id="332" x="110" y="610">
+      <point />
+      <properties>
+        <property name="allyGroup" value="1" />
+        <property name="credits" value="100" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="team_2_info" type="team_info" id="333" x="110" y="610">
+      <point />
+      <properties>
+        <property name="allyGroup" value="0" />
+        <property name="credits" value="200000" />
+        <property name="team" value="2" />
+      </properties>
+    </object>
+    <object name="Dialog" type="unitDetect" id="363" x="560" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="5s" />
+        <property name="globalMessage" value="麦克阿瑟将军:我现在特别想知道你还能在这里待多长时间" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog1" type="unitDetect" id="364" x="580" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="15s" />
+        <property name="globalMessage" value="麦克阿瑟将军:如果你的部队有点质量还能勉强和我的部队掰掰手腕——但你是不可能拥有的" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog2" type="unitDetect" id="365" x="600" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="20s" />
+        <property name="globalMessage" value="麦克阿瑟将军:等待你的死期吧" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog3" type="unitDetect" id="366" x="620" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="45s" />
+        <property name="globalMessage" value="希特勒上将:切,无能的美国佬,纸糊的老虎" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF0022FF" />
+      </properties>
+    </object>
+    <object name="Dialog4" type="unitDetect" id="367" x="640" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="55s" />
+        <property name="globalMessage" value="希特勒上将:你们算什么,就只会拿钱砸人吗? " />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF0022FF" />
+      </properties>
+    </object>
+    <object name="Dialog5" type="unitDetect" id="368" x="660" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="65s" />
+        <property name="globalMessage" value="麦克阿瑟将军:你咋知道? 可以说,你们目前最好的战果仅仅只是在我们毫无防备的情况下袭击了我们" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog6" type="unitDetect" id="369" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="75s" />
+        <property name="globalMessage" value="麦克阿瑟将军:正面战场上,我们只要还有点钱,你们永远只是凋零,日耳曼蛮子们" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog7" type="unitDetect" id="370" x="710" y="490">
+      <point />
+      <properties>
+        <property name="delay" value="110s" />
+        <property name="globalMessage" value="第3师师长:到!" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog8" type="unitDetect" id="372" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="114s" />
+        <property name="globalMessage" value="麦克阿瑟将军:欢迎你们进入绞肉机" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog9" type="unitDetect" id="373" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="120s" />
+        <property name="globalMessage" value="第3师师长:嗯,这么看来,我完全可以用手指怼着你的鼻子说:我会让你坏掉的" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="sup1" type="unitAdd" id="371" x="10" y="870" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_super_tank*9(falling=true)" />
+        <property name="warmup" value="110s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sup2" type="unitAdd" id="374" x="450" y="10" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_motorized_soldier*30" />
+        <property name="warmup" value="130s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sup3" type="unitAdd" id="375" x="450" y="10" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_sniper*14" />
+        <property name="warmup" value="130s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="sup4" type="unitAdd" id="376" x="450" y="10" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="antitankgun*8" />
+        <property name="warmup" value="130s" />
+        <property name="team" value="-1" />
+      </properties>
+    </object>
+    <object name="Dialog10" type="unitDetect" id="377" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="130s" />
+        <property name="globalMessage" value="第6、7军团师长:指挥官,我们赶到了" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="sup5" type="unitAdd" id="378" x="30" y="790" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_medium_tank*10" />
+        <property name="warmup" value="134s" />
+        <property name="team" value="0" />
+      </properties>
+    </object>
+    <object name="sup6" type="unitAdd" id="379" x="30" y="790" width="20" height="20">
+      <properties>
+        <property name="spawnUnits" value="greenbelt_soldier*10" />
+        <property name="warmup" value="134s" />
+        <property name="team" value="1" />
+      </properties>
+    </object>
+    <object name="Dialog11" type="unitDetect" id="380" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="134s" />
+        <property name="globalMessage" value="第289师团预备役:准备完毕,指挥官" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog12" type="unitDetect" id="381" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="140s" />
+        <property name="globalMessage" value="麦克阿瑟将军:你……你们哪来这么多的兵" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog13" type="unitDetect" id="382" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="147s" />
+        <property name="globalMessage" value="隆美尔元首:这一切其实是我故意的——让你认为你要面对一支没有组织并且在我方首都死守的部队" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+    <object name="Dialog14" type="unitDetect" id="383" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="147s" />
+        <property name="globalMessage" value="隆美尔元首:你有钱,但我有的是兵啊,正好因为你没有管地球的战线,所以我们给你们带来了点惊喜" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+        <object name="Dialog15" type="unitDetect" id="384" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="155s" />
+        <property name="globalMessage" value="麦克阿瑟将军:……无耻之徒" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FFFF0004" />
+      </properties>
+    </object>
+    <object name="Dialog17" type="unitDetect" id="385" x="680" y="480" width="20" height="20">
+      <properties>
+        <property name="delay" value="160s" />
+        <property name="globalMessage" value="隆美尔元首:你有一个炮棋,但我的车棋都在啊" />
+        <property name="globalMessage_delayPerChar" value="0.1s" />
+        <property name="globalMessage_textColor" value="#FF00FF00" />
+      </properties>
+    </object>
+  </objectgroup>
+</map>
