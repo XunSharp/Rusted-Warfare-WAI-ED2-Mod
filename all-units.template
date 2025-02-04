@@ -10,7 +10,7 @@ displayColor:#006B0A
 priority:1
 [global_resource_material]
 hidden:false
-displayName:可加工材料
+displayName:原材料
 displayColor:#676767
 [global_resource_daily_necessities]
 hidden:false
@@ -22,8 +22,16 @@ displayName:非法致癌物
 displayColor:#045400
 [global_resource_semifinished_product]
 hidden:false
-displayName:半成品
-displayColor:#8D00FF
+displayName:可变资本
+displayColor:#ffff00
+[global_resource_cansemifinished_product]
+hidden:false
+displayName:不变资本
+displayColor:#ff0000
+[global_resource_comono]
+hidden:false
+displayName:利率
+displayColor:#f0f0f0
 [global_resource_regeneration_shield]
 hidden:false
 displayName:续航盾能量
